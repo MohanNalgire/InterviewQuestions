@@ -74,6 +74,9 @@ https://blog.angular-university.io/angular-host-context/
 ## Dependency Injection for component	
 
 ## Directive
+**1 NgIf vs NgSwitch?**  
+**Answer:**  
+The key difference between the ngIf solution is that by using NgSwitch we evaluate the expression only once and then choose the element to display based on the result.
 
 ## Built-in Directives
 
