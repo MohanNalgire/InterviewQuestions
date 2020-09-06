@@ -160,13 +160,94 @@ d None
 	b no
 **Answer: a yes**  
 
+**7 The expression passed on to ngClass in Angulr can be:**  
+	a an object  
+	b an array  
+	c a string  
+	d All above
+**Answer: d All above**  
+
 ## Built-in Directives
 
 ## Custom Directives
 
 ## Reactive Programming with RxJS
+**1	Following are different subjects**  
+	a Subject, ReplySubject, BehaviourSubject, AsyncSubject  
+	b Share, refCount, Multicast, ReplayShare, publish  
+	c a & b   
+	d None  
+**Anser: a Subject, ReplySubject, BehaviourSubject, AsyncSubject**  
+
+**2	What are type of observale?**  
+	a hot and cold  
+	b array and object
+	c subject, schedulers
+	d subject, subscribe, schedulers
+
+**3 Hot observables are multicast as all subscribers get data from the same producer.**  
+	a yes
+	b no
+**Anser: a yes**  
+
+**4 Cold observables are unicast as each subscriber gets data from different producer.** 
+	a yes
+	b no
+**Anser: a yes**  
+https://itnext.io/the-magic-of-rxjs-sharing-operators-and-their-differences-3a03d699d255
+
+
+**5 publish() === multicast(new Subject()) in RXJs multicasting**  
+	a yes
+	b no
+**Answer: a yes**  
+publish() uses Subject instance — multicast(new Subject())
+
+
+**6 share() === multicast(() => new Subject()).refCount() in RXJs multicasting**   
+	a yes
+	b no
+**Answer: a yes**  
+share() uses factory function that returns Subject instance — multicast(() => new Subject()).refCount()
 
 ## Pipes
+**1 KeyValuePipe transforms Object or Map into an array of key value pairs.**  
+	a yes
+	b no
+**Answer: a yes**  
+
+**2 KeyValuePipe transforms Object or Map into an array of key value pairs, and this is a impure pipe.**  
+	a yes  
+	b no  
+**Answer: a yes**  
+
+**3 JsonPipe Converts a value into its JSON-format representation. Useful for debugging**  
+	a yes  
+	b no  
+**Answer: a yes**  
+
+**4 JsonPipe Converts a value into its JSON-format representation. Useful for debugging, and this is a impure pipe**  
+	a yes  
+	b no  
+**Answer: a yes**  
+
+
+**5 AsyncPipe accepts as argument an _________, calls subcribe or attaches a then handler, then waits for the asynchronous result before passing it through to the caller.**  
+	a observable or a promise
+	b observable or subject
+	c subject or subscriber
+	d None
+**Answer: a observable or a promise**  
+
+**6 With AsyncPipe we can use promises and observables directly in our template, without having to store the result on an intermediate property or variable.**  
+	a yes  
+	b no  
+**Answer: a yes**  
+
+**7 we  use the @Pipe decorator to create pipes.** 
+	a yes  
+	b no  
+**Answer: a yes**  
 
 ## Forms
 
