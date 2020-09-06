@@ -230,5 +230,3 @@ This is a function which when passed a token returns a dependency (or list of de
 ## Routing
 
 ## Unit Testing
-
-## Advanced Topics
