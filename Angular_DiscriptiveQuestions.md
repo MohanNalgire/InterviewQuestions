@@ -204,6 +204,14 @@ Reference:
 
 ## Forms
 
+**1 what are Form Control State**  
+1 Dirty  
+2 Pristine  
+3 Touched  
+4 Untouched  
+5 Valid  
+6 Invalid  
+
 ## Dependency Injection & Providers
 
 ## HTTP
