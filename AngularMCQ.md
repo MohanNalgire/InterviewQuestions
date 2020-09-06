@@ -25,11 +25,11 @@
 **Answer: b ng g module [module-name] --routing or ng g m [module-name] --routing**   
 https://stackoverflow.com/questions/42502449/generate-a-routing-module-while-creating-a-module-in-angular-cli
 
-**4	How to run angular local server with secure connection**  
-	a ng serve —-ssl true
-	b ng serve --BASE_HREF 
-	c ng serve --open
-	d None
+**4	How to run angular local server with secure connection**   
+	a ng serve —-ssl true  
+	b ng serve --BASE_HREF  
+	c ng serve --open  
+	d None  
 **Answer:	a ng serve —-ssl true**  
 https://medium.com/@rubenvermeulen/running-angular-cli-over-https-with-a-trusted-certificate-4a0d5f92747a
 
