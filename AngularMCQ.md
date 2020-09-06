@@ -23,7 +23,7 @@
 	c ng g module [module-name]--module-routing  
 	d ng g module [module-name]  
 **Answer: b ng g module [module-name] --routing or ng g m [module-name] --routing**   
-https://stackoverflow.com/questions/42502449/generate-a-routing-module-while-creating-a-module-in-angular-cli
+https://stackoverflow.com/questions/42502449/generate-a-routing-module-while-creating-a-module-in-angular-cli  
 
 **4	How to run angular local server with secure connection**   
 	a ng serve —-ssl true  
@@ -31,7 +31,7 @@ https://stackoverflow.com/questions/42502449/generate-a-routing-module-while-cre
 	c ng serve --open  
 	d None  
 **Answer:	a ng serve —-ssl true**  
-https://medium.com/@rubenvermeulen/running-angular-cli-over-https-with-a-trusted-certificate-4a0d5f92747a
+https://medium.com/@rubenvermeulen/running-angular-cli-over-https-with-a-trusted-certificate-4a0d5f92747a  
 
 **5	Which command is used to create interface**  
 	a ng i  
