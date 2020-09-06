@@ -312,6 +312,60 @@ c componet
 d class  
 **Answer: a form**  
 
+**8 Both _________ and __________ expose an observable called valuesChanged. By subscribing to this observable we can react in real-time to changing values of an individual form control, or a group of form controls.**  
+a FormControls, FormGroups  
+b FromsModule, ReactiveFormsMOdule  
+c a & b  
+d None  
+**Answer: a FormControls, FormGroups**  
+
+**9 These formGroup, formGroupName, formControl and formControlName directives are from the ReactiveFormsModule and used for model-driven forms.**  
+a yes
+b No
+**Answer: a yes**  
+
+**10 The directives we need to build template-driven forms are in the _____________**  
+a FormsModule  
+b ReactiveFormsMOdule  
+c a & b  
+d None  
+**Answer: a FormsModule**  
+
+**11 One of the directives pulled in via the FormsModule is called NgForm.This directive has a selector which matches the \<form> tag.**  
+a true  
+b false  
+**Answer: a true**  
+
+**12 by adding FormsModule to our NgModule imports, our template form is already associated with an instance of the NgForm directive.**  
+a true  
+b false  
+**Answer: a true**  
+
+**13 In template-driven forms we need Angular to create the model form controls for us for each template form control. To do that we need to do two things to each template form control:
+1 Add the NgModel directive. 2 Add the name attribute.**  
+a true  
+b false  
+**Answer: a true**  
+
+**14 The NgModel directive creates the FormControl instance to manage the template form control and the name attribute tells the NgModel directive what key to store that FormControl under in the parent FormGroup,**  
+a true
+b false
+**Answer: a true**  
+
+**15 This code `<input ... [(ngModel)]="email" >` is short form `<input ... [ngModel]="email" (ngModelChange)="email = $event" >`**  
+a true  
+b false  
+**Answer: a true**  
+
+**16 The [( )] syntax is a combination of the syntax for input property binding [] and output event binding ().**  
+a true  
+b false  
+**Answer: a true**  
+
+**17 In the template-driven approach we define the validators via directives and HTML5 attributes in our template itself.**  
+a true  
+b false  
+
 ## Dependency Injection & Providers
 
 ## HTTP
