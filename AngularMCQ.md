@@ -88,14 +88,14 @@ https://codecraft.tv/courses/angular/dependency-injection-and-providers/configur
 	d styles  
 **Answer:	a encapsulation**  
 
-**3	By default, the renderer uses _____________ if the view has styles, otherwise _______________________. **  
+**3	By default, the renderer uses _____________ if the view has styles, otherwise _______________________.**    
 a ViewEncapsulation.Emulated, ViewEncapsulation.None  
 b ViewEncapsulation.Emulated, viewEncapsulation.Native  
 c viewEncapsulation.None, viewEncapsulation.Native  
 d None  
 **Answer:	a ViewEncapsulation.Emulated, ViewEncapsulation.None**  
 
-**4	There is also a _________ method which uses the shadow DOM to encapsulate the view.  
+**4	There is also a _________ method which uses the shadow DOM to encapsulate the view.**    
 a ViewEncapsulation.Native  
 b ViewEncapsulation.None  
 c ViewEncapsulation.Emulated  
