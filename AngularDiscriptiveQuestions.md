@@ -9,36 +9,42 @@ Ref:
     https://ultimatecourses.com/blog/angular-decorators
 
 
-1   What are the types of decorators
-    1 Class Decorators
-    2 Property Decorators
-    3 Method Decorators
-    4 Parameter Decorators	
+**1   What are the types of decorators**  
+    1 Class Decorators  
+    2 Property Decorators  
+    3 Method Decorators  
+    4 Parameter Decorators	  
 
-2   Write examples for Class decorators
-     e.g. @Component and @NgModule
+**2   Write examples for Class decorators from Angular**  
+    1 @Component 
+    2 @NgModule  
 
-3   Write examples for Property decorators for properties inside classes
-    e.g. @Input and @Output
+**3   Write examples for Property decorators for properties inside classes from Angular**  
+    1 @Input  
+    2 @Output
 
-3   Write examples for Method decorators for methods inside classes
-    e.g. @HostListener
+**3   Write examples for Method decorators for methods inside classes from Angular**  
+    @HostListener
 
-4   Write examples for Parameter decorators for parameters inside class     constructors 
-    e.g. @Inject, @Host @Optional @Self @SkipSelf
+**4   Write examples for Parameter decorators for parameters inside class   constructors from Angular**  
+    1 @Inject  
+    2 @Host   
+    3 @Optional  
+    4 @Self  
+    5 @SkipSelf  
 
-5   what Angular decorators actually do?
-    Storing metadata
-    Chaining decorators
+**5   what Angular decorators actually do?**  
+    a Storing metadata  
+    b Chaining decorators  
 
 
-6   @Host vs @optional
+**6   @Host vs @optional**  
 https://medium.com/frontend-coach/self-or-optional-host-the-visual-guide-to-angular-di-decorators-73fbbb5c8658
 
-7   @Self vs @SkipSelf
+**7   @Self vs @SkipSelf**  
 https://www.fsjavascript.com/angular-reference/self-and-skipself
 
-8   @Self vs @Host
+**8   @Self vs @Host**  
 https://stackoverflow.com/questions/43728007/difference-between-self-and-host-angular-2-dependency-injection-decorators
 
 https://levelup.gitconnected.com/angular-interview-question-what-is-the-difference-between-host-and-self-7910f19b1c35
