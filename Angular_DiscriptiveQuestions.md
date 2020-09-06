@@ -214,6 +214,17 @@ Reference:
 
 ## Dependency Injection & Providers
 
+**1 What are the The DI framework in Angular consists of 4 concepts working together**  
+**Answer:**  
+**Token**
+This uniquely identifies something that we want injected. A dependency of our code.  
+**Dependency**  
+The actual code we want injected.
+**Provider**  
+This is a map between a token and a list of dependencies.  
+**Injector**  
+This is a function which when passed a token returns a dependency (or list of dependencies).  
+
 ## HTTP
 
 ## Routing
