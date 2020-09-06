@@ -111,16 +111,14 @@ d None
 	d @Optional  
 **Answer:	a @NgModule**  
 	
-**2	If we want a separate instance of a dependency to be shared across each instance of a component and its children, we configure it
-	on the component’s_______________ property.**  
+**2	If we want a separate instance of a dependency to be shared across each instance of a component and its children, we configure it on the component’s_______________ property.**  
 	a @providers  
 	b @viewProviders  
 	c @Component  
 	d @Directive  
 **Answer:	a @providers**  
 
-**3	If we want a separate instance of a dependency to be shared across each instance of a component and only its view children, 
-	we configure it on the component’s _____________ property.**  
+**3	If we want a separate instance of a dependency to be shared across each instance of a component and only its view children, we configure it on the component’s _____________ property.**  
 	a @viewProviders  
 	b @providers  
 	c @Component  
@@ -129,10 +127,38 @@ d None
 
 
 ## Directive
-1	Which are built in directives.
-	a NgIf, NgFor
-	b 
+**1	Directives are components without a _____.**  
+	a NgIf, NgFor  
+	b style  
+	c view & template
+	d encapsulation  
+**Answer:	c view & template**  
 
+**2 Everything you can do with a directive you can also do with a component. But not everything you can do with a component you can do with a directive.** 
+	a yes
+	b no
+**Answer:	a yes**  
+
+**3 The NgIf directive is used when you want to display or remove an element based on a condition. If the condition is false the element the directive is attached to will be removed from the DOM**  
+	a yes
+	b no
+**Answer:	a yes**  
+
+**4 The difference between [hidden]='false' and *ngIf='false' is that the first method simply hides the element. The second method with ngIf removes the element completely from the DOM.**  
+	a yes
+	b no
+**Answer:	a yes**  
+
+
+**5 We can’t have two structural directives, directives starting with a *, attached to the same element.**  
+	a yes
+	b no
+**Answer: a yes** 
+
+**6 If we are faced with multiple conditions a cleaner alternative to multiple nested NgIf statements is the NgSwitch series of directives.**  
+	a yes
+	b no
+**Answer: a yes**  
 
 ## Built-in Directives
 
