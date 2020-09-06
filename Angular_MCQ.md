@@ -157,12 +157,12 @@ a yes
 b no
 **Answer:a yes**  
 
-**4 The difference between [hidden]='false' and *ngIf='false' is that the first method simply hides the element. The second method with ngIf removes the element completely from the DOM.**  
+**4 The difference between [hidden]='false' and \*ngIf='false' is that the first method simply hides the element. The second method with ngIf removes the element completely from the DOM.**  
 a yes
 b no
 **Answer:a yes**  
 
-**5 We can’t have two structural directives, directives starting with a *, attached to the same element.**  
+**5 We can’t have two structural directives, directives starting with a \*, attached to the same element.**  
 a yes  
 b no  
 **Answer: a yes**  
