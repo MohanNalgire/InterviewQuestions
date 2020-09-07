@@ -365,6 +365,7 @@ b false
 **17 In the template-driven approach we define the validators via directives and HTML5 attributes in our template itself.**  
 a true  
 b false  
+**Answer: a true** 
 
 ## Dependency Injection & Providers
 
