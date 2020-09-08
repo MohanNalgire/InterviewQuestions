@@ -289,7 +289,7 @@ Import each of them from @angular/core and use each in the component class const
 
 **3 What is platform injector in Angular?**  
 **Answer:**
-
+The platformBrowserDynamic() method creates an injector configured by a PlatformModule, which contains platform-specific dependencies. This allows multiple apps to share a platform configuration. For example, a browser has only one URL bar, no matter how many apps you have running. You can configure additional platform-specific providers at the platform level by supplying extraProviders using the platformBrowser() function.  
 
 ## HTTP
 
