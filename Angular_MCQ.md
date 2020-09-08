@@ -368,129 +368,73 @@ b false
 **Answer: a true** 
 
 ## Dependency Injection & Providers
-Dependencies are services or objects that a class needs to perform its function. 
+**1 Dependencies are services or objects that a class needs to perform its function.**  
 a true  
 b false   
-Answer: a true   
+**Answer: a true**  
 
-DI is a coding pattern in which a class asks for dependencies from external sources rather than creating them itself.
+**2 DI is a coding pattern in which a class asks for dependencies from external sources rather than creatingthem itself.** 
 a true  
 b false   
-Answer: a true   
+**Answer: a true**  
 
-The DI framework lets you supply data to a component from an injectable service class, defined in its own file.
+**3 The DI framework lets you supply data to a component from an injectable service class, defined in its own file.**  
 a true  
 b false   
-Answer: a true   
+**Answer: a true**  
 
-The injector is responsible for creating service instances and injecting them into classes.
+**4 The injector is responsible for creating service instances and injecting them into classes.**  
 a true  
 b false   
-Answer: a true   
+**Answer: a true**  
 
-You rarely create an Angular injector yourself. Angular creates injectors for you as it executes the app, starting with the root injector that it creates during the bootstrap process.
+**5 You rarely create an Angular injector yourself. Angular creates injectors for you as it executes the app, starting with the root injector that it creates during the bootstrap process.**  
 a true  
 b false   
-Answer: a true   
+**Answer: a true**  
 
-A provider tells an injector how to create the service. You must configure an injector with a provider before that injector can create a service
+**6 A provider tells an injector how to create the service. You must configure an injector with a provider before that injector can create a service**  
 a true  
 b false   
-Answer: a true   
+**Answer: a true**  
 
 
-A provider can be the service class itself, so that the injector can use new to create an instance. You might also define more than one class to provide the same service in different ways, and configure different injectors with different providers.
+**7 A provider can be the service class itself, so that the injector can use new to create an instance. You might also define more than one class to provide the same service in different ways, and configure different injectors with different providers.**  
 a true  
 b false   
-Answer: a true   
+**Answer: a true**  
 
-Injectors are inherited, which means that if a given injector can't resolve a dependency, it asks the parent injector to resolve it.
-
-A component can get services from its own injector, from the injectors of its component ancestors, from the injector of its parent NgModule, or from the root injector.
-
-The @Injectable() decorator marks it as a service that can be injected, but Angular can't actually inject it 
-anywhere until you configure an Angular dependency injector with a _____________ of that service.
-a class
-b service 
-c provider
-d None
-
-
-@Inject() and @Optional() are parameter decorators. They alter the way the DI framework provides a dependency, 
-by annotating the dependency parameter on the constructor of the class that requires the dependency.
+**8 Injectors are inherited, which means that if a given injector can't resolve a dependency, it asks the parent injector to resolve it.**  
 a true  
 b false   
-Answer: a true   
+**Answer: a true**  
 
-Services are singletons within the scope of an injector. That is, there is at most one instance of a service in a given injector.
+**9 A component can get services from its own injector, from the injectors of its component ancestors, from the injector of its parent NgModule, or from the root injector.**  
+a true  
+b false   
+**Answer: a true**  
 
-Angular DI has a hierarchical injection system, which means that nested injectors can create their own service instances.
+**10 The @Injectable() decorator marks it as a service that can be injected, but Angular can't actually inject it anywhere until you configure an Angular dependency injector with a _____________ of that service.**  
+a class  
+b service   
+c provider  
+d None  
+**Answer: cProvider**  
 
-----------------------------------------------------------------------------------------
-What is root injector and where we get this in Angular application
-Answer:
-There is only one root injector for an app. Providing services at the root or AppModule level means it is registered with the root injector. 
-There is just one service instance in the entire app and every class that injects service gets this service instance unless you configure another provider with a child injector.
+**11 @Inject() and @Optional() are parameter decorators. They alter the way the DI framework provides a dependency, by annotating the dependency parameter on the constructor of the class that requires the dependency.**  
+a true  
+b false   
+**Answer: a true**    
 
-What is optional dependencies and how we can declare that and handle in Angular.
-Answer:  
-When a component or service declares a dependency, the class constructor takes that dependency as a parameter. 
-You can tell Angular that the dependency is optional by annotating the constructor parameter with @Optional().
-When using @Optional(), your code must be prepared for a null value. 
-If you don't register a logger provider anywhere, the injector sets the value of logger to null.
+**12 Services are singletons within the scope of an injector. That is, there is at most one instance of a service in a given injector.**  
+a true  
+b false   
+**Answer: a true**   
 
-How Angular DI hierarchical injection system works and when instance get created?
-Answer:
-Angular DI has a hierarchical injection system, which means that nested injectors can create their own service instances. Angular regularly creates nested injectors. Whenever Angular creates a new instance of a component that has providers specified in @Component(), it also creates a new child injector for that instance. Similarly, when a new NgModule is lazy-loaded at run time, Angular can create an injector for it with its own providers.
-
-Where the component can get services from?
-Answer:  
-A component can get services 
-1 from its own injector, 
-2 from the injectors of its component ancestors, 
-3 from the injector of its parent NgModule, or from the root injector.
-
-
-What are the different levels of your app where we configure injectors.
-Answer:
-You can configure injectors with providers at different levels of your app, by setting a metadata value in one of three places:
-
-In the @Injectable() decorator for the service itself.
-	The @Injectable() decorator has the providedIn metadata option, where you can specify the provider of the decorated service class with the root injector, or with the injector for a specific NgModule.
-	
-In the @NgModule() decorator for an NgModule.
-	The @NgModule() and @Component() decorators have the providers metadata option, where you can configure providers for NgModule-level or component-level injectors.
-	
-In the @Component() decorator for a component.
-	Components are directives, and the providers option is inherited from @Directive(). You can also configure providers for directives and pipes at the same level as the component.
-	
-
-### Injectors
-
-How many injector hierarchies present in Angular?
-Answer:
-There are two injector hierarchies in Angular:
-1 ModuleInjector hierarchy—
-configure a ModuleInjector in this hierarchy using an @NgModule() or @Injectable() annotation.
-ModuleInjector is configured by the @NgModule.providers and NgModule.imports property. ModuleInjector is a flattening of all of the providers arrays which can be reached by following the NgModule.imports recursively.
-Child ModuleInjectors are created when lazy loading other @NgModules.
-2ElementInjector hierarchy—
-created implicitly at each DOM element. An ElementInjector is empty by default unless you configure it in the providers property on @Directive() or @Component().
-
-1	NUllInjector
-2	ModuleInjector
-3	root ModuleInjector
-
-What are the Angular DI resolution modifiers?
-Answer:
-Angular's resolution behavior can be modified with 
-1 @Optional(), 
-2 @Self(), 
-3 @SkipSelf() and 
-4 @Host(). 
-Import each of them from @angular/core and use each in the component class constructor when you inject your service.
-
-What is platform injector in Angular
+**13 Angular DI has a hierarchical injection system, which means that nested injectors can create their own service instances.**  
+a true  
+b false   
+**Answer: a true**   
 
 ### Providers
 What is tree-shakable providers in DI providers with Angular
