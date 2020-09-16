@@ -4,21 +4,21 @@
 
 ## Angular CLI
 
-**1Where we define our custom commonds for running builds and server environments in angular 7+.**  
+**1 Where we define our custom commonds for running builds and server environments in angular 7+.**  
 a package.json  
 b angular.json  
 c angular-cli.json  
 d tsconfig.json  
-**Answer:a package.json**  
+**Answer: a package.json**  
 
-**2Which command is used for running production build**  
+**2 Which command is used for running production build**  
 a ng build --prod  
 b ng build local  
 c ng build productionEnv  
 D None of above  
-**Answer:a ng build --prod**  
+**Answer: a ng build --prod**  
 
-**3when we create module file with route which paramter we require**  
+**3 When we create module file with route which paramter we require**  
 a ng g module [module-name]--route  
 b ng g module [module-name] --routing or ng g m [module-name] --routing  
 c ng g module [module-name]--module-routing  
@@ -27,30 +27,30 @@ d ng g module [module-name]
 Reference:
 <https://stackoverflow.com/questions/42502449/generate-a-routing-module-while-creating-a-module-in-angular-cli>  
 
-**4How to run angular local server with secure connection**  
+**4 How to run angular local server with secure connection**  
 a ng serve —-ssl true  
 b ng serve --BASE_HREF  
 c ng serve --open  
 d None  
-**Answer:a ng serve —-ssl true**  
+**Answer: a ng serve —-ssl true**  
 Reference:
 <https://medium.com/@rubenvermeulen/running-angular-cli-over-https-with-a-trusted-certificate-4a0d5f92747a>  
 
-**5Which command is used to create interface**  
+**5 Which command is used to create interface**  
 a ng i  
 b ng generate interface Itest sometype  
 c ng g i  
 c None  
-**Answer:b ng generate interface Itest sometype**  
+**Answer: b ng generate interface Itest sometype**  
 
 ## Angular Decorators
 
-**1From following which are paramterised decorators.**  
+**1 From following which are paramterised decorators.**  
 a @Host, @Optional @self, @SkipSelf  
 b @Component @NgModule  
 c @Directive  
 d None  
-**Answer:a @Host, @Optional @self, @SkipSelf**  
+**Answer: a @Host, @Optional @self, @SkipSelf**  
 Reference:
 <https://angular.io/api/core/Optional>  
 <https://codecraft.tv/courses/angular/dependency-injection-and-providers/configuring/>  
@@ -59,12 +59,12 @@ Reference:
 
 ### Component
 
-**1Components @Component directive has inherited properties from @Directive is this correct statement.**  
+**1 Components @Component directive has inherited properties from @Directive is this correct statement.**  
 a yes  
 b no  
 **Answer: a yes**  
 
-**2Which property of @Component is used to define current component dependancies.**  
+**2 Which property of @Component is used to define current component dependancies.**  
 a select  
 b providers  
 c template  
@@ -87,80 +87,80 @@ d templateUrl
 
 #### Angular View Encapsulation
 
-**1How many encapsulation strategies provided by Angular?**  
+**1 How many encapsulation strategies provided by Angular?**  
 a 3  
 b 4  
 c 5  
 d 3 Or 4  
-**Answer:d 3 Or 4**  
+**Answer: d 3 Or 4**  
 
-**2Which property of @Component is used for Defines template and style encapsulation options available for Component's Component.**  
+**2 Which property of @Component is used for Defines template and style encapsulation options available for Component's Component.**  
 a encapsulation  
 b viewEncapsulation  
 c styleUrls  
 d styles  
-**Answer:a encapsulation**  
+**Answer: a encapsulation**  
 
-**3By default, the renderer uses _____________ if the view has styles, otherwise _______________________.**  
+**3 By default, the renderer uses _____________ if the view has styles, otherwise _______________________.**  
 a ViewEncapsulation.Emulated, ViewEncapsulation.None  
 b ViewEncapsulation.Emulated, viewEncapsulation.Native  
 c viewEncapsulation.None, viewEncapsulation.Native  
 d None  
-**Answer:a ViewEncapsulation.Emulated, ViewEncapsulation.None**  
+**Answer: a ViewEncapsulation.Emulated, ViewEncapsulation.None**  
 
-**4There is also a _________ method which uses the shadow DOM to encapsulate the view.**  
+**4 There is also a _________ method which uses the shadow DOM to encapsulate the view.**  
 a ViewEncapsulation.Native  
 b ViewEncapsulation.None  
 c ViewEncapsulation.Emulated  
 d None  
-**Answer:a ViewEncapsulation.Native**  
+**Answer: a ViewEncapsulation.Native**  
 
 ## Dependency Injection for component
 
-**1If we want an instance of a dependency to be shared globally and share state across the application we configure it on the ________**  
+**1 If we want an instance of a dependency to be shared globally and share state across the application we configure it on the ________**  
 a @NgModule  
 b @Component  
 c @Directive  
 d @Optional  
-**Answer:a @NgModule**  
+**Answer: a @NgModule**  
 
-**2If we want a separate instance of a dependency to be shared across each instance of a component and its children, we configure it on the component’s_______________ property.**  
+**2 If we want a separate instance of a dependency to be shared across each instance of a component and its children, we configure it on the component’s_______________ property.**  
 a @providers  
 b @viewProviders  
 c @Component  
 d @Directive  
 **Answer:a @providers**  
 
-**3If we want a separate instance of a dependency to be shared across each instance of a component and only its view children, we configure it on the component’s _____________ property.**  
+**3 If we want a separate instance of a dependency to be shared across each instance of a component and only its view children, we configure it on the component’s _____________ property.**  
 a @viewProviders  
 b @providers  
 c @Component  
 d @NgModule  
-**Answer:a @viewProviders**  
+**Answer: a @viewProviders**  
 
 ## Directive
 
-**1Directives are components without a _____.**  
+**1 Directives are components without a _____.**  
 a NgIf, NgFor  
 b style  
 c view & template  
 d encapsulation  
-**Answer:c view & template**  
+**Answer: c view & template**  
 
 **2 Everything you can do with a directive you can also do with a component. But not everything you can do with a component you can do with a directive.**  
 a yes
 b no
-**Answer:a yes**  
+**Answer: a yes**  
 
 **3 The NgIf directive is used when you want to display or remove an element based on a condition. If the condition is false the element the directive is attached to will be removed from the DOM**  
 a yes
 b no
-**Answer:a yes**  
+**Answer: a yes**  
 
 **4 The difference between [hidden]='false' and \*ngIf='false' is that the first method simply hides the element. The second method with ngIf removes the element completely from the DOM.**  
 a yes
 b no
-**Answer:a yes**  
+**Answer: a yes**  
 
 **5 We can’t have two structural directives, directives starting with a \*, attached to the same element.**  
 a yes  
@@ -185,14 +185,14 @@ d All above
 
 ## Reactive Programming with RxJS
 
-**1Following are different subjects**  
+**1 Following are different subjects**  
 a Subject, ReplySubject, BehaviourSubject, AsyncSubject  
 b Share, refCount, Multicast, ReplayShare, publish  
 c a & b  
 d None  
 **Anser: a Subject, ReplySubject, BehaviourSubject, AsyncSubject**  
 
-**2What are type of observale?**  
+**2 What are type of observale?**  
 a hot and cold  
 b array and object  
 c subject, schedulers  
@@ -342,7 +342,8 @@ b false
 **Answer: a true**  
 
 **13 In template-driven forms we need Angular to create the model form controls for us for each template form control. To do that we need to do two things to each template form control:
-1 Add the NgModel directive. 2 Add the name attribute.**  
+1 Add the NgModel directive.  
+2 Add the name attribute.**  
 a true  
 b false  
 **Answer: a true**  
@@ -365,82 +366,127 @@ b false
 **17 In the template-driven approach we define the validators via directives and HTML5 attributes in our template itself.**  
 a true  
 b false  
-**Answer: a true** 
-
-## Dependency Injection & Providers
-**1 Dependencies are services or objects that a class needs to perform its function.**  
-a true  
-b false   
 **Answer: a true**  
 
-**2 DI is a coding pattern in which a class asks for dependencies from external sources rather than creatingthem itself.** 
+## Dependency Injection & Providers
+
+**1 Dependencies are services or objects that a class needs to perform its function.**  
 a true  
-b false   
+b false  
+**Answer: a true**  
+
+**2 DI is a coding pattern in which a class asks for dependencies from external sources rather than creatingthem itself.**  
+a true  
+b false  
 **Answer: a true**  
 
 **3 The DI framework lets you supply data to a component from an injectable service class, defined in its own file.**  
 a true  
-b false   
+b false  
 **Answer: a true**  
 
 **4 The injector is responsible for creating service instances and injecting them into classes.**  
 a true  
-b false   
+b false  
 **Answer: a true**  
 
 **5 You rarely create an Angular injector yourself. Angular creates injectors for you as it executes the app, starting with the root injector that it creates during the bootstrap process.**  
 a true  
-b false   
+b false  
 **Answer: a true**  
 
 **6 A provider tells an injector how to create the service. You must configure an injector with a provider before that injector can create a service**  
 a true  
-b false   
+b false  
 **Answer: a true**  
-
 
 **7 A provider can be the service class itself, so that the injector can use new to create an instance. You might also define more than one class to provide the same service in different ways, and configure different injectors with different providers.**  
 a true  
-b false   
+b false  
 **Answer: a true**  
 
 **8 Injectors are inherited, which means that if a given injector can't resolve a dependency, it asks the parent injector to resolve it.**  
 a true  
-b false   
+b false  
 **Answer: a true**  
 
 **9 A component can get services from its own injector, from the injectors of its component ancestors, from the injector of its parent NgModule, or from the root injector.**  
 a true  
-b false   
+b false  
 **Answer: a true**  
 
 **10 The @Injectable() decorator marks it as a service that can be injected, but Angular can't actually inject it anywhere until you configure an Angular dependency injector with a _____________ of that service.**  
 a class  
-b service   
+b service  
 c provider  
 d None  
-**Answer: cProvider**  
+**Answer: c Provider**  
 
 **11 @Inject() and @Optional() are parameter decorators. They alter the way the DI framework provides a dependency, by annotating the dependency parameter on the constructor of the class that requires the dependency.**  
 a true  
-b false   
-**Answer: a true**    
+b false  
+**Answer: a true**  
 
 **12 Services are singletons within the scope of an injector. That is, there is at most one instance of a service in a given injector.**  
 a true  
-b false   
-**Answer: a true**   
+b false  
+**Answer: a true**  
 
 **13 Angular DI has a hierarchical injection system, which means that nested injectors can create their own service instances.**  
 a true  
-b false   
-**Answer: a true**   
+b false  
+**Answer: a true**  
+
+**14 If the request fails on the server, HttpClient returns an ___________ instead of a successful response.**
+a error array  
+b error object  
+c error string  
+d None  
+**Answer: b error object**  
+
+**15 HttpClient captures both kinds of errors in its ___________. You can inspect that response to identify the error's cause.**  
+a HttpRequest  
+b HttpErrorResponse  
+c HttpClientModule  
+d HttpEvent  
+**Answer: b HttpErrorResponse**
 
 ### Providers
-What is tree-shakable providers in DI providers with Angular
+
+**1 What is tree-shakable providers in DI providers with Angular.**
 
 ## HTTP
 
 ## Routing
 
 ## Unit Testing
+
+1. Code coverage
+2. Testing services
+3. Basics of testing components
+4. Component testing scenarios
+5. Testing attribute directives
+6. Testing pipes
+7. Debugging tests
+8. Testing utility APIs
+
+**1. What is the test file extension in Angular**  
+a .spec.ts
+b .ts
+c .js
+d None
+**Answer: a .spec.ts**
+
+**2. What is the option for checking test on browser**  
+a --browser  
+b --browsers  
+c --Browser  
+d None  
+**Answer: b --browsers**
+
+**3. Which command is used to create code coverage report of Angular app**
+a ng test --no-watch --code-coverage
+b ng test --no-watch
+c ng test
+d None
+**Answer: a ng test --no-watch --code-coverage**
