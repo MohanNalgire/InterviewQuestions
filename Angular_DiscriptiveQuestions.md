@@ -578,3 +578,105 @@ Output Variables
 Life Cycle Methods
 Mock Method Chains
 HTTP Calls
+
+## Packaging & Releasing
+
+## Angular application deployment
+
+**1. How to use JavaScript source maps (.map files)?**
+**Answer:**
+The .map files are for js and css (and now ts too) files that have been minified. They are called SourceMaps. When you minify a file, like the angular.js file, it takes thousands of lines of pretty code and turns it into only a few lines of ugly code. Hopefully, when you are shipping your code to production, you are using the minified code instead of the full, unminified version. When your app is in production, and has an error, the sourcemap will help take your ugly file, and will allow you to see the original version of the code. If you didn't have the sourcemap, then any error would seem cryptic at best.
+
+Same for CSS files. Once you take a SASS or LESS file and compile it to CSS, it looks nothing like its original form. If you enable sourcemaps, then you can see the original state of the file, instead of the modified state.
+
+**2 What is .js.map file for?**
+ To de-reference uglified code.
+
+**3 How can a developer use .js.map?**
+You use it for debugging a production app. In development mode you can use the full version of Angular. In production, you would use the minified version.
+
+**3 Should I care about creating a .js.map file?**
+If you care about being able to debug production code easier, then yes, you should do it.
+
+**4 How does .js.map get created?**
+It is created at build time. There are build tools that can build your .map file for you as it does other files. <https://github.com/gruntjs/grunt-contrib-uglify/issues/71>
+
+## Angular CORS
+
+Reference:
+
+1. <https://juristr.com/blog/2016/11/configure-proxy-api-angular-cli/>
+2. <https://itnext.io/angular-cli-proxy-configuration-4311acec9d6f>
+3. <https://medium.com/bb-tutorials-and-thoughts/angular-how-to-proxy-to-backend-server-6fb37ef0d025>
+4. <https://angular.io/guide/build#proxying-to-a-backend-server>
+5. For proxy.config.json file parameters use <https://webpack.js.org/configuration/dev-server/#devserverproxy>
+
+**1 Why we use proxy configuration in Angular or Why we use proxy.config.js or proxy.config.json?**
+**Answer:**
+
+1. In Angular, the proxy is used mostly in the development environment to facilitate the communication between server and UI.
+2. We need to have a backend server and UI running on different ports.
+3. Proxy.config.json is the file which holds all the information regarding backend API URLs.
+We need to make sure the Angular App and Backends are running on different ports for successful communication.
+4. There are two ways to configure one is to add in the angular.json and another is adding a proxy-config flag to the start script.
+We can rewrite the path with the option pathRewrite.
+5. We can proxy multiple entries to one backend API with the proxy.config.js.
+We can proxy multiple entries to multiple backends as well.
+
+**2 When to use proxy.config.js vs proxy.config.json?**
+**Answer:**
+As per client requirement, when we are using API endipoint it is divided into two categories  
+
+1. Multiple app entries to one API endpoint
+we use - proxy.config.js
+2. Multiple app entries with multiple endpoints
+we use - proxy.config.json
+example:
+1 We need to create one file in src as proxy.config.json
+2 To run the proxy settings we need to update
+In package.json file add following code
+
+```powershell
+"":{
+    "ng":"ng",
+    "start":"ng serve — proxy-config proxy.conf.json"
+    ...
+}
+```
+
+In angular.json file with following settings
+
+```json
+"architect": {
+    "serve":{
+        "builder":"@angular-devkit/build-angular:dev-server",
+        "options":{
+        "browserTarget":"appUI:build",
+        "proxyConfig":"src/proxy.config.json"
+        },
+    }
+}
+```
+
+Need to create this file in src folder
+proxy.config.json
+
+```json
+{
+  "/user/*": {
+    "target": "http://localhost:3700",
+    "secure": false,
+    "logLevel": "debug"
+  },
+  "/product/*": {
+    "target": "http://localhost:3800",
+    "secure": false,
+    "logLevel": "debug"
+  },
+  "/settings/*": {
+    "target": "http://localhost:3900",
+    "secure": false,
+    "logLevel": "debug"
+  }
+}
+```
