@@ -2,13 +2,29 @@
 
 Following points wwe are covering in each question type
 
-## JavaScript
+## Angular CLI
 
-## ES6
+## Decorators
 
-## TypeScript
+## Directive
 
-## Components & Binding
+## Components
+
+### Template
+
+#### Variable Binding
+
+#### Forms
+
+##### Template Driven Forms
+
+##### Reactive Forms
+
+#### Pipe
+
+#### Predefined Pipes
+
+#### Custom Pipes
 
 ## Directives
 
@@ -20,13 +36,15 @@ Following points wwe are covering in each question type
 
 ### Providers
 
+#### proviers[]
+
+#### @injectable()
+
+#### @inject()
+
 ## Angular Modules & Bootstrapping your Angular application
 
 ## SPAs & Routing
-
-## Angular CLI
-
-## Forms
 
 ## Reactive Programming with RXJs
 

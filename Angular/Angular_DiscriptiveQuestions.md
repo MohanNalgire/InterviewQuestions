@@ -1,7 +1,5 @@
 # Angular interview multiple choice question
 
-## ES6 JavaScript & TypeScript
-
 ## Angular CLI
 
 ## Angular Decorators
@@ -212,7 +210,13 @@ Reference:
 5 Valid  
 6 Invalid  
 
-## Dependency Injection & Providers
+## Dependency Injection
+
+### Http
+
+### Services
+
+### Providers
 
 **1 What are the The DI framework in Angular consists of 4 concepts working together**  
 **Answer:**  
@@ -471,6 +475,52 @@ example as
 ```
 
 ## Routing
+
+### Routing Strategies
+
+With client-side SPAs we have two strategies we can use to implement client-side routing
+
+1. HashLocationStrategy
+2. PathLocationStrategy
+
+**1. Which is default path location strategy in Angular?**
+**Anser:**
+PathLocationStrategy
+
+**2. what is syntax for path location strategies?**
+**Anser:**
+
+1. HashLocationStrategy
+syntax example: /#/foo/moo/loo
+2. PathLocationStrategy
+syntax example: /artist/1234/tracks
+
+**3. How to use path location strategies?**
+**Anser:**
+First Method
+
+1. Import the module and its classes
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+2. Add its dependency to provider
+{provide: LocationStrategy, useClass: HashLocationStrategy}
+
+Second Method
+Add following syntax in app.module.ts
+
+```typescript
+@NgModule({
+  imports: [
+    BrowserModule,
+    FormsModule,
+    RouterModule.forRoot(routes, { useHash: true }) // <-------- for including hash
+  ],
+  bootstrap: [AppComponent]
+})
+```
+
+**4. Which is the best path location strategy in Angular**
+**Anser:**
+PathLocationStrategy
 
 ## Unit Testing
 
