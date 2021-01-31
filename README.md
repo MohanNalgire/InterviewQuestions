@@ -8,26 +8,6 @@ Following points wwe are covering in each question type
 
 ## TypeScript
 
-## Components & Binding
-
-## Directives
-
-## Dependency Injection
-
-### HTTP
-
-### Services
-
-### Providers
-
-## Angular Modules & Bootstrapping your Angular application
-
-## SPAs & Routing
-
-## Angular CLI
-
-## Forms
-
 ## Reactive Programming with RXJs
 
 ## Testing
@@ -42,8 +22,6 @@ Following points wwe are covering in each question type
 8. Testing utility APIs
 
 ## Packaging & Releasing
-
-## Angular application deployment
 
 ---
 
