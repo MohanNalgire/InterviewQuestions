@@ -8,7 +8,7 @@ Following points wwe are covering in each question type
 
 ## TypeScript
 
-## Reactive Programming with RXJs
+## RxJs
 
 ## Testing
 
