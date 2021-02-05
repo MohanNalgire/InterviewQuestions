@@ -182,15 +182,20 @@ d All above
 ## Built-in Directives
 
 ## Custom Directives
+**Answer:-  
+    1.using @Directive decorator we can create custom directive
+    2.
+**
+ 
+## with RxJS
 
-## Reactive Programming with RxJS
 
 **1 Following are different subjects**  
 a Subject, ReplySubject, BehaviourSubject, AsyncSubject  
 b Share, refCount, Multicast, ReplayShare, publish  
 c a & b  
 d None  
-**Anser: a Subject, ReplySubject, BehaviourSubject, AsyncSubject**  
+**Answer: a Subject, ReplySubject, BehaviourSubject, AsyncSubject**  
 
 **2 What are type of observale?**  
 a hot and cold  
