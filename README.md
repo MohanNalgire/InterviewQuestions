@@ -2,6 +2,17 @@
 
 Following points wwe are covering in each question type
 
+| No.| Index|
+|---- |-------|
+|1|[HTML]|
+|2||[CSS]|
+|3|[JavaScript]|
+|4|[TypeScript]|
+|5|[Angular]|
+|6|[React]|
+|7|[Vue]|
+
+
 ## JavaScript
 
 ## ES6
