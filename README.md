@@ -1,6 +1,6 @@
 # InterviewQuestions
 
-Following points wwe are covering in each question type
+To open topic wise questions click on following links
 
 | No.| Index|
 |---- |-------|
