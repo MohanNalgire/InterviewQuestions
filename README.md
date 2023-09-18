@@ -15,4 +15,4 @@ Following points wwe are covering in each question type
 |9|[NextJS](https://github.com/MohanNalgire/InterviewQuestions/tree/master/NextJS)|
 |10|[NodeJS](https://github.com/MohanNalgire/InterviewQuestions/tree/master/NodeJS)|
 |11|[Ajax](https://github.com/MohanNalgire/InterviewQuestions/tree/master/Ajax)|
-|12|[RxJS]|(https://github.com/MohanNalgire/InterviewQuestions/tree/master/RxJS)|
+|12|[RxJS](https://github.com/MohanNalgire/InterviewQuestions/tree/master/RxJS)|
