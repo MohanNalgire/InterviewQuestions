@@ -38,7 +38,7 @@ console.log('test on i', i);
 // iteration 3  i = 2 , i inc 3
 // iteration 4  i = 3 , i inc 4
 // iteration 5  i = 4 , i inc 5
-// iteration 5  i = 5 , i inc -----
+// iteration 5  i = 5 , i inc ---
 ```
 
 ```
