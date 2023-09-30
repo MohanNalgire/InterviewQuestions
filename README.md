@@ -35,7 +35,7 @@ To open topic wise questions click on following links
 
 ## Tasble of Package Manager ##
 
-|No.|Indx|
+|No.|Index|
 |---- |------- |
 |1|[Bower]|
 |2|[NPM]|
