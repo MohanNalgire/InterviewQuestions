@@ -1,6 +1,6 @@
 # InterviewQuestions
 
-## How to contribute to this project
+## [How to contribute to this project](./gitInstructions.md)
 
 To open topic wise questions click on following links
 
