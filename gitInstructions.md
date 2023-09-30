@@ -4,8 +4,8 @@
 
 |Sr No. | Topic|
 | :---: | :--- |
-|1      | [To add ssh key to git and GitHub](To add ssh key to git and GitHub#) |
-|2      | [To use git repository](To use git repository#) |
+|1      | [To add ssh key to git and GitHub](#to-add-ssh-key-to-git-and-github) |
+|2      | [To use git repository](#to-use-git-repository) |
 
 ## To add ssh key to git and GitHub ##
 
@@ -25,7 +25,8 @@ clip < ~/.ssh/id_ed25519.pub
 
 step 3: Add this ssh key to your GitHub account
 
-    3.1. In the upper-right corner of any page, click your profile photo, then click Settings.  
+```makefile
+    3.1. In the upper-right corner of any page, click your profile photo, then click Settings.
     3.2. In the "Access" section of the sidebar, click SSH and GPG keys.  
     3.3. Click New SSH key or Add SSH key.
     3.4. In the "Title" field, add a descriptive label for the new key. For example, f you're using a personal laptop, you might call this key "Personal laptop".
@@ -33,6 +34,7 @@ step 3: Add this ssh key to your GitHub account
     3.6. In the "Key" field, paste your public key.
     3.7. Click Add SSH key.
     3.8. If prompted, confirm access to your account on GitHub. For more information, see "Sudo mode."
+```
 
 ## To use git repository ##
 

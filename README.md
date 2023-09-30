@@ -1,6 +1,6 @@
-# InterviewQuestions
+# InterviewQuestions #
 
-## [How to contribute to this project](./gitInstructions.md)
+## [How to contribute to this project](./gitInstructions.md) ##
 
 To open topic wise questions click on following links
 
@@ -19,7 +19,7 @@ To open topic wise questions click on following links
 |11|[Ajax](https://github.com/MohanNalgire/InterviewQuestions/tree/master/Ajax)|
 |12|[RxJS](https://github.com/MohanNalgire/InterviewQuestions/tree/master/RxJS)|
 
-## Table of Build Tools
+## Table of Build Tools ##
 
 |No.|Index|
 |---- |------- |
@@ -33,7 +33,7 @@ To open topic wise questions click on following links
 |8|[WMR]|
 |9|[Rome]|
 
-## Tasble of Package Manager
+## Tasble of Package Manager ##
 
 |No.|Indx|
 |---- |------- |
