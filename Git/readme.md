@@ -1,4 +1,4 @@
-# Daily use instructions
+# Daily git use instructions
 
 step 1: Pull changes from master branch or your defind branch
 
@@ -9,9 +9,11 @@ step 1: Pull changes from master branch or your defind branch
 ```
 
 step 2: Check for conflicts
+
     2.1 If conflicts
-        2.1.1 resolve your conflicts
-        2.1.2 add changes to staging area
+
+        2.1.1 resolve your conflicts  
+        2.1.2 add changes to staging area  
 
         ```bash
             git add .

@@ -1,7 +1,15 @@
-# How to use this git repository
+# How to use this git repository #
 
-## To add ssh key to git and GitHub
+## Index ##
 
+|Sr No. | Topic|
+| :---: | :--- |
+|1      | [To add ssh key to git and GitHub](To add ssh key to git and GitHub#) |
+|2      | [To use git repository](To use git repository#) |
+
+## To add ssh key to git and GitHub ##
+
+----
 Steps:
 step 1: Paste the text below, substituting in your GitHub email address.
 
@@ -16,8 +24,9 @@ clip < ~/.ssh/id_ed25519.pub
 ```
 
 step 3: Add this ssh key to your GitHub account
-    3.1. In the upper-right corner of any page, click your profile photo, then click Settings.
-    3.2. In the "Access" section of the sidebar, click SSH and GPG keys.
+
+    3.1. In the upper-right corner of any page, click your profile photo, then click Settings.  
+    3.2. In the "Access" section of the sidebar, click SSH and GPG keys.  
     3.3. Click New SSH key or Add SSH key.
     3.4. In the "Title" field, add a descriptive label for the new key. For example, f you're using a personal laptop, you might call this key "Personal laptop".
     3.5. Select the type of key, either authentication or signing. For more information about commit signing, see "About commit signature verification."
@@ -25,7 +34,7 @@ step 3: Add this ssh key to your GitHub account
     3.7. Click Add SSH key.
     3.8. If prompted, confirm access to your account on GitHub. For more information, see "Sudo mode."
 
-## To use git repository
+## To use git repository ##
 
 Steps:
 
