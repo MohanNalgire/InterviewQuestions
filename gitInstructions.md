@@ -1,32 +1,66 @@
+# How to use this git repository
+
+## To add ssh key to git and GitHub
+
+Steps:
+step 1: Paste the text below, substituting in your GitHub email address.
+
+```bash
+ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+
+step 2: Copy the SSH public key to your clipboard.
+
+```bash
+clip < ~/.ssh/id_ed25519.pub
+```
+
+step 3: Add this ssh key to your GitHub account
+    3.1. In the upper-right corner of any page, click your profile photo, then click Settings.
+    3.2. In the "Access" section of the sidebar, click SSH and GPG keys.
+    3.3. Click New SSH key or Add SSH key.
+    3.4. In the "Title" field, add a descriptive label for the new key. For example, f you're using a personal laptop, you might call this key "Personal laptop".
+    3.5. Select the type of key, either authentication or signing. For more information about commit signing, see "About commit signature verification."
+    3.6. In the "Key" field, paste your public key.
+    3.7. Click Add SSH key.
+    3.8. If prompted, confirm access to your account on GitHub. For more information, see "Sudo mode."
+
+## To use git repository
 
 Steps:
 
 step 1: Clone the GitHub repository to your local machine
 
-```Git
+```bash
 git clone https://github.com/MohanNalgire/InterviewQuestions.git
 ```
 
 step 2: Change directory to InterviewQuestions.
 
-```CLI
+```bash
 cd InterviewQuestions
 ```
 
-step 3: Create a new branch and switch to new branch.
+step 3: Verify git local repository
 
-```Git
+```bash
+git status
+```
+
+step 4: Create a new branch and switch to new branch.
+
+```bash
 git branch <new_branch>
 ```
 
-step 4: check your remote details and confirm.
+step 5: check your remote details and confirm.
 
-```Git
+```bash
 git remote -v
 ```
 
-step 5: Pull all changes to local from remote repository.
+step 6: Pull all changes to local from remote repository.
 
-```Git
+```bash
 git pull --all
 ```
