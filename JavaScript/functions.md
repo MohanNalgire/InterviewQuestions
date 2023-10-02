@@ -82,10 +82,10 @@
 | :---: | :--- |
 | 01 | write a program with arrow function for summation of 2 numbers. |
 | 02 | write a program with anonimous function for summation of 2 numbers and stoe to a variable. |
-| 03 | write a function declaration for a function call **multiplication(4,5)** |
+| 03 | write a function declaration for a function call ***multiplication(4,5)*** |
 | 04 | write a program with function for summation 2 numbers. |
-| 05 | Write a function declaration for function call **multiplication(4)(5)(6);** |
-| 07 | Write a function declaration for function call **summation(4)(5)(6);** |
+| 05 | Write a function declaration for function call ***multiplication(4)(5)(6);*** |
+| 07 | Write a function declaration for function call ***summation(4)(5)(6);*** |
 
 ---
 
@@ -101,7 +101,7 @@ sum(1,2,3);
 2. What is the output
 
 ```javascript
-function curry(f) { // curry(f) does the currying transform
+function curry(f) {
   return function(a) {
     return function(b) {
       return f(a, b);
@@ -217,6 +217,45 @@ const outer = outerFunc();
 
 console.log(outer.innerFunc(10, 10));
 console.log(outer.innerFunc(20, 15));
+```
+
+```javascript
+function add(a,b) {
+return  a+b;
+}
+console.log(add(3,4));
+console.log(add(3,4,5));
+```
+
+
+```javascript
+funciton add(){
+    console.log(arguments);
+    var sum = 0;
+    for(var i=0; i< arguments.length;i++){
+        sum += arguments[i];
+    }
+    return sum;
+}
+console.log(add(3,4,6,7));
+```
+
+```javascript
+var x = "outside";
+
+var f1 = function() {
+  var x = "inside f1";
+};
+f1();
+console.log(x);
+```
+
+```javascript
+var f2 = function() {
+  x = "inside f2";
+};
+f2();
+console.log(x);
 ```
 
 ---
