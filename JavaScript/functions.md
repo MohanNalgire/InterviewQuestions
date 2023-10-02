@@ -88,6 +88,139 @@
 | 07 | Write a function declaration for summation(4)(5)(6) |
 
 
+
+1. Convert following funtion into curring function. 
+
+```Javascript
+function sum(a, b, c) {
+    return a + b + c;
+}
+sum(1,2,3); 
+```
+
+2. What is the output
+
+```javascript
+function curry(f) { // curry(f) does the currying transform
+  return function(a) {
+    return function(b) {
+      return f(a, b);
+    };
+  };
+}
+
+curry(4)(5)(6);
+
+```
+
+3. What is the output
+
+```javascript
+function outerFunc(a, b) {
+  function innerFunc(a, b) {
+    return a + b;
+  }
+
+  const result = innerFunc(a, b);
+
+  return result;
+}
+oupterFunc(4,5);
+
+```
+
+
+```javascript
+function outerFunc() {
+  const num1 = 5;
+  const num2 = 10;
+
+  // 👇️ call inner function before it's declared
+  const result = innerFunc();
+
+  function innerFunc() {
+    return num1 + num2;
+  }
+
+  return result;
+}
+
+console.log(outerFunc());
+```
+
+```Javascript
+function outerFunc() {
+  function innerFunc(a, b) {
+    return a + b;
+  }
+
+  return innerFunc;
+}
+
+const innerFunc = outerFunc();
+
+console.log(innerFunc(2, 3));
+console.log(innerFunc(3, 3));
+```
+
+```javascript
+function outerFunc() {
+  const z = 100;
+
+  function innerFunc(a, b) {
+    return a + b + z;
+  }
+
+  return innerFunc;
+}
+
+const innerFunc = outerFunc();
+
+console.log(innerFunc(2, 3));
+console.log(innerFunc(3, 3));
+```
+
+```javascript
+function outerFunc(a) {
+  function innerFunc(b, c) {
+    return a + b + c;
+  }
+
+  return innerFunc;
+}
+
+const innerFunc = outerFunc(10);
+
+console.log(innerFunc(1, 1));
+console.log(innerFunc(1, 2));
+```
+
+```javascript
+function outerFunc() {
+  function innerFunc(a, b) {
+    return a + b;
+  }
+
+  return {innerFunc};
+}
+
+const outer = outerFunc();
+
+console.log(outer.innerFunc(10, 10));
+console.log(outer.innerFunc(20, 15));
+```
+
+
+
+
+
+
+
+
+
+
+---
+
 |  |   |
 
 1. Function types
@@ -345,3 +478,9 @@
 ---
 
 Quesitons:
+
+
+References:
+
+1. https://bobbyhadz.com/blog/javascript-call-function-inside-function
+2. t
