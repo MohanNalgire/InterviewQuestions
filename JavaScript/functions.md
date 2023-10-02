@@ -87,9 +87,9 @@
 | 05 | Write a function declaration for multiplication(4)(5)(6); |
 | 07 | Write a function declaration for summation(4)(5)(6) |
 
+---
 
-
-1. Convert following funtion into curring function. 
+1. Convert following funtion into curring function.
 
 ```Javascript
 function sum(a, b, c) {
@@ -218,8 +218,6 @@ const outer = outerFunc();
 console.log(outer.innerFunc(10, 10));
 console.log(outer.innerFunc(20, 15));
 ```
-
-
 
 ---
 
@@ -376,25 +374,33 @@ console.log(outer.innerFunc(20, 15));
 ---
 
  7. Generator funciton
- syntax:
- function* functionName(paramter){
- // function body
- }
+  7.1. bsyntax:
+
+    ```javascript
+     function* functionName(paramter){
+     // function body
+     }
+    ```
+
  Usage:
  1. Functions taht can  be paused and resumed during executions.
 
  Example:
+```javascript
  function* numberGenerator(){
    let num =1;
    while(trye){
    yield num++;
    }
  }
+```
 
 ---
 
  8. Async funciton
  syntax:
+
+```javascript
  async function functionName(paramter){
        const url = '<https://api.example.com/users/>';
     const api1 = await fetch(url);
@@ -403,11 +409,14 @@ console.log(outer.innerFunc(20, 15));
     return result;
 
  }
+```
 
  usage:
  to perform asynchronous actions
 
  example:
+
+```javascript
  function resolveAfter2Seconds() {
  return new Promise((resolve) => {
     setTimeout(() => {
@@ -421,8 +430,9 @@ console.log(outer.innerFunc(20, 15));
    console.log('test', result)
  }
  asyncCall();
-  
-------------------------------------------------------------------------;
+ ```
+
+---
 
 9. call back function
    9.1. syntax:
@@ -444,7 +454,8 @@ console.log(outer.innerFunc(20, 15));
   // function declaration
   // Questions:
   // Can we pass function as a paramter in JavaScript?
-  //
+
+```javascript
   function greetings(param1, param2){
     param2();// we are calling this as a function
   }
@@ -455,7 +466,8 @@ console.log(outer.innerFunc(20, 15));
 
   console.log(typeof testMe);
   greetings(true, testMe);
-  
+```
+
 // <https://www.programiz.com/javascript/callback>
 
 ---
@@ -475,7 +487,7 @@ console.log(outer.innerFunc(20, 15));
    10.2. Usage:
     1. asyncronous task
 
-    10.3. Example:
+  10.3. Example:
   
 ---
 
