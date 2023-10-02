@@ -82,8 +82,11 @@
 | :---: | :--- |
 | 01 | write a program with arrow function for summation of 2 numbers. |
 | 02 | write a program with anonimous function for summation of 2 numbers. |
-| 03 | |
+| 03 | write a function declaration for multiplication(4,5) |
 | 04 | write a program with function for summation. |
+| 05 | Write a function declaration for multiplication(4)(5)(6); |
+| 07 | Write a function declaration for summation(4)(5)(6) |
+
 
 |  |   |
 
