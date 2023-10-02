@@ -45,6 +45,7 @@ let d= test(10,20,30);
  console.log(d);
 
  */
+/*
  function mul(a) {
     
     console.log("inner level one",a,b,c);
@@ -58,4 +59,4 @@ let d= test(10,20,30);
     }
     // return function2()();
 }
-mul(4)(5)(6);
+mul(4)(5)(6);*/
