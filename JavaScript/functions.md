@@ -129,6 +129,7 @@ oupterFunc(4,5);
 
 ```
 
+4. What is the output
 
 ```javascript
 function outerFunc() {
@@ -148,6 +149,8 @@ function outerFunc() {
 console.log(outerFunc());
 ```
 
+5. What is the output
+
 ```Javascript
 function outerFunc() {
   function innerFunc(a, b) {
@@ -162,6 +165,8 @@ const innerFunc = outerFunc();
 console.log(innerFunc(2, 3));
 console.log(innerFunc(3, 3));
 ```
+
+6. What is the output
 
 ```javascript
 function outerFunc() {
@@ -180,6 +185,8 @@ console.log(innerFunc(2, 3));
 console.log(innerFunc(3, 3));
 ```
 
+7. What is the output
+
 ```javascript
 function outerFunc(a) {
   function innerFunc(b, c) {
@@ -195,6 +202,8 @@ console.log(innerFunc(1, 1));
 console.log(innerFunc(1, 2));
 ```
 
+8. What is the output
+
 ```javascript
 function outerFunc() {
   function innerFunc(a, b) {
@@ -209,13 +218,6 @@ const outer = outerFunc();
 console.log(outer.innerFunc(10, 10));
 console.log(outer.innerFunc(20, 15));
 ```
-
-
-
-
-
-
-
 
 
 
