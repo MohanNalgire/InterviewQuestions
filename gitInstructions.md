@@ -58,13 +58,8 @@ step 3: Verify git local repository
 git status
 ```
 
-step 4: Create a new branch and switch to new branch.
 
-```bash
-git branch <new_branch>
-```
-
-step 5: check your remote details and confirm.
+step 4: check your remote details and confirm.
 
 ```bash
 git remote -v
@@ -75,3 +70,12 @@ step 6: Pull all changes to local from remote repository.
 ```bash
 git pull --all
 ```
+
+step 6: Create a new branch from origin master branch switch to new branch..
+
+```bash
+git checkout -b <new_branch_name> <remote_name>/<remote_branch_name>
+# Example : git checkout -b developer_msn origin/developer
+```
+
+
