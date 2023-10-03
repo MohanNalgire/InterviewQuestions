@@ -6,3 +6,4 @@ function loop(run,stop){
     
 }
 loop(0,20);
+//D:\projects\InterviewQuestions\JavaScript\codeExamples\Functions\LoopFunction.js
