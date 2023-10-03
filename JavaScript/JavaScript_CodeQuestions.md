@@ -1,6 +1,23 @@
 
 # JavaScript
 
+## Data types in JavaScript
+
+1. What is the output of following code?
+
+    ```javascript
+        let value = true;
+        alert(typeof value);
+        value = String(value);
+        alert(typeof value); 
+    ```
+
+2. What is the out of following code?
+
+    ```javascript
+        alert( "6" / "2" );
+    ```
+
 Reference:
 <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements>
 
@@ -304,3 +321,23 @@ console.log(this)
 It gives Window object as global scope value
 
 ---
+
+What is the output of following program?
+
+```javascript
+// Example of paramters in nested function
+    function outerfunc(a) {
+        innerFunc = function (b) {
+            console.log("a %d  b %d",a,b)
+        };
+        return innerFunc;
+    }
+     
+    //Get Inner Function
+    InnerFunc=outerfunc(5);
+    //Invoke it
+    InnerFunc(3);
+     
+    //Invoke invoke inner Function directly
+    outerfunc(10)(2);
+```
