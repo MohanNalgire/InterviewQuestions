@@ -60,3 +60,13 @@ let d= test(10,20,30);
     // return function2()();
 }
 mul(4)(5)(6);*/
+/*
+function sum(a) {
+    return (b) => {
+        return (c) => {
+            return a + b + c
+        }
+    }
+}
+console.log(sum(1)(2)(3))
+*/
