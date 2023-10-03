@@ -1,0 +1,3 @@
+function showMassge(){
+    alert('hello');
+}
