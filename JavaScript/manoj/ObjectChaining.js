@@ -38,4 +38,19 @@ class Calculator {
   
   console.log(result); 
   // Output: 12
-  
+  // Using optional chaining operator with function calls
+  let file = {
+    read() {
+        return 'file content';
+    },
+    write(content) {
+        console.log(`Writing ${content} to file...`);
+        return true;
+    }
+};
+ console.log(file?.read());
+ console.log(file.write());
+/* Output:
+file content
+Writing undefined to file...
+true*/
