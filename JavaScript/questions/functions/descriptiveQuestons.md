@@ -17,14 +17,22 @@
 | 11 | [How variable scope works in nested functions in JavaScript](#how-variable-scope-works-in-nested-functions-in-javascript) |
 | 12 | [What is a closure in JavaScript](#what-is-a-closure-in-javascript) |
 | 13 | [how to count function arguments in JavaScript](#how-to-count-function-arguments-in-javascript) |
-| 13 | [How to get all function arguments names in JavaScript](#how-to-get-all-function-arguments-names-in-javascript) |
-| 14 | [What is IIFE (Immedicately Invoked Function Expression)](#what-is-iife-immedicately-invoked-function-expression) |
-| 15 | [What is recursive function in JavaScript](#what-is-recursive-function-in-javascript) |
-| 16 | [Can we define functions in other functions in JavaScript](#can-we-define-functions-in-other-functions-in-javascript) |
-| 17 | [What is closure in JavaScript](#what-is-closure-in-javascript) |
-| 18 | [What are the 2 additional paramters passed to JavaScript functions](#what-are-the-2-additional-paramters-passed-to-javascript-functions) |
-| 19 | [how to use the functions arguments object](#how-to-use-the-functions-arguments-object) |
-| 20 | [What are the function parameter types](#what-are-the-function-parameter-types) |
+| 14 | [How to get all function arguments names in JavaScript](#how-to-get-all-function-arguments-names-in-javascript) |
+| 15 | [What is IIFE (Immedicately Invoked Function Expression)](#what-is-iife-immedicately-invoked-function-expression) |
+| 16 | [What is recursive function in JavaScript](#what-is-recursive-function-in-javascript) |
+| 17 | [Can we define functions in other functions in JavaScript](#can-we-define-functions-in-other-functions-in-javascript) |
+| 18 | [What is closure in JavaScript](#what-is-closure-in-javascript) |
+| 19 | [What are the 2 additional paramters passed to JavaScript functions](#what-are-the-2-additional-paramters-passed-to-javascript-functions) |
+| 20 | [how to use the functions arguments object](#how-to-use-the-functions-arguments-object) |
+| 21 | [What are the function parameter types](#what-are-the-function-parameter-types) |
+| 22 | [What is promise in JavaScript] |
+| 23 | [What are the states in promise] |
+| 24 | [Write promise prototype details ] |
+| 25 | [What is promise chaining] |
+| 26 | [What are the 4 static methods] |
+| 27 | [What is call back ] |
+| 28 | [Which internal properties are available to the promise object returned by the new Promise constructor]
+
 |    | **References** |
 | 01 | JavaScript: The Good Parts by Douglas Crockford |
 
@@ -72,18 +80,27 @@
 
 21. #### What are the function parameter types
 
-   There are two special kinds of parameter synta
+   There are two special kinds of parameter syntax
     1. default parameters and
     2. rest parameters.
 
----
+22. ### What is promise in JavaScript
 
-| Sr No. | Write a program questions |
-| :---: | :--- |
-| 01 | write a program with arrow function for summation of 2 numbers. |
-| 02 | write a program with anonimous function for summation of 2 numbers. |
-| 03 | |
-| 04 | write a program with function for summation. |
+23. ### What are the states in promise  
+
+24. ### Write promise prototype details
+
+25. ### What is promise chaining
+
+26. ### What are the 4 static methods
+
+27. ### What is call back
+
+28. ### Which internal properties are available to the promise object returned by the new Promise constructor
+
+--
+
+---
 
 |  |   |
 
@@ -238,25 +255,35 @@
 ---
 
  7. Generator funciton
- syntax:
- function* functionName(paramter){
- // function body
- }
+  7.1. bsyntax:
+
+    ```javascript
+     function* functionName(paramter){
+     // function body
+     }
+    ```
+
  Usage:
+
  1. Functions taht can  be paused and resumed during executions.
 
  Example:
+
+```javascript
  function* numberGenerator(){
    let num =1;
    while(trye){
    yield num++;
    }
  }
+```
 
 ---
 
  8. Async funciton
  syntax:
+
+```javascript
  async function functionName(paramter){
        const url = '<https://api.example.com/users/>';
     const api1 = await fetch(url);
@@ -265,11 +292,14 @@
     return result;
 
  }
+```
 
  usage:
  to perform asynchronous actions
 
  example:
+
+```javascript
  function resolveAfter2Seconds() {
  return new Promise((resolve) => {
     setTimeout(() => {
@@ -283,8 +313,9 @@
    console.log('test', result)
  }
  asyncCall();
-  
-------------------------------------------------------------------------;
+ ```
+
+---
 
 9. call back function
    9.1. syntax:
@@ -306,7 +337,8 @@
   // function declaration
   // Questions:
   // Can we pass function as a paramter in JavaScript?
-  //
+
+```javascript
   function greetings(param1, param2){
     param2();// we are calling this as a function
   }
@@ -317,7 +349,8 @@
 
   console.log(typeof testMe);
   greetings(true, testMe);
-  
+```
+
 // <https://www.programiz.com/javascript/callback>
 
 ---
@@ -337,8 +370,13 @@
    10.2. Usage:
     1. asyncronous task
 
-    10.3. Example:
+  10.3. Example:
   
 ---
 
 Quesitons:
+
+References:
+
+1. <https://bobbyhadz.com/blog/javascript-call-function-inside-function>
+2. t
