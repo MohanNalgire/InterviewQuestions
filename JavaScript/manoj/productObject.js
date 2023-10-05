@@ -7,4 +7,4 @@ function Product(name, price) {
   const laptop = new Product('Laptop', 999.99);
   console.log(laptop.price); 
   // Output: 999.99
-  
+  //hi
