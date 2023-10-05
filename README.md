@@ -33,7 +33,7 @@ To open topic wise questions click on following links
 |8|[WMR]|
 |9|[Rome]|
 
-## Tasble of Package Manager ##
+## Table of Package Manager ##
 
 |No.|Index|
 |---- |------- |
