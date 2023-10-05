@@ -17,14 +17,22 @@
 | 11 | [How variable scope works in nested functions in JavaScript](#how-variable-scope-works-in-nested-functions-in-javascript) |
 | 12 | [What is a closure in JavaScript](#what-is-a-closure-in-javascript) |
 | 13 | [how to count function arguments in JavaScript](#how-to-count-function-arguments-in-javascript) |
-| 13 | [How to get all function arguments names in JavaScript](#how-to-get-all-function-arguments-names-in-javascript) |
-| 14 | [What is IIFE (Immedicately Invoked Function Expression)](#what-is-iife-immedicately-invoked-function-expression) |
-| 15 | [What is recursive function in JavaScript](#what-is-recursive-function-in-javascript) |
-| 16 | [Can we define functions in other functions in JavaScript](#can-we-define-functions-in-other-functions-in-javascript) |
-| 17 | [What is closure in JavaScript](#what-is-closure-in-javascript) |
-| 18 | [What are the 2 additional paramters passed to JavaScript functions](#what-are-the-2-additional-paramters-passed-to-javascript-functions) |
-| 19 | [how to use the functions arguments object](#how-to-use-the-functions-arguments-object) |
-| 20 | [What are the function parameter types](#what-are-the-function-parameter-types) |
+| 14 | [How to get all function arguments names in JavaScript](#how-to-get-all-function-arguments-names-in-javascript) |
+| 15 | [What is IIFE (Immedicately Invoked Function Expression)](#what-is-iife-immedicately-invoked-function-expression) |
+| 16 | [What is recursive function in JavaScript](#what-is-recursive-function-in-javascript) |
+| 17 | [Can we define functions in other functions in JavaScript](#can-we-define-functions-in-other-functions-in-javascript) |
+| 18 | [What is closure in JavaScript](#what-is-closure-in-javascript) |
+| 19 | [What are the 2 additional paramters passed to JavaScript functions](#what-are-the-2-additional-paramters-passed-to-javascript-functions) |
+| 20 | [how to use the functions arguments object](#how-to-use-the-functions-arguments-object) |
+| 21 | [What are the function parameter types](#what-are-the-function-parameter-types) |
+| 22 | [What is promise in JavaScript] |
+| 23 | [What are the states in promise] |
+| 24 | [Write promise prototype details ] |
+| 25 | [What is promise chaining] |
+| 26 | [What are the 4 static methods] |
+| 27 | [What is call back ] |
+| 28 | [Which internal properties are available to the promise object returned by the new Promise constructor]
+
 |    | **References** |
 | 01 | JavaScript: The Good Parts by Douglas Crockford |
 
@@ -72,191 +80,25 @@
 
 21. #### What are the function parameter types
 
-   There are two special kinds of parameter synta
+   There are two special kinds of parameter syntax
     1. default parameters and
     2. rest parameters.
 
----
+22. ### What is promise in JavaScript
 
-| Sr No. | Write a program questions |
-| :---: | :--- |
-| 01 | write a program with arrow function for summation of 2 numbers. |
-| 02 | write a program with anonimous function for summation of 2 numbers and stoe to a variable. |
-| 03 | write a function declaration for a function call ***multiplication(4,5)*** |
-| 04 | write a program with function for summation 2 numbers. |
-| 05 | Write a function declaration for function call ***multiplication(4)(5)(6);*** |
-| 07 | Write a function declaration for function call ***summation(4)(5)(6);*** |
+23. ### What are the states in promise  
 
----
+24. ### Write promise prototype details
 
-1. Convert following funtion into curring function.
+25. ### What is promise chaining
 
-```Javascript
-function sum(a, b, c) {
-    return a + b + c;
-}
-sum(1,2,3); 
-```
+26. ### What are the 4 static methods
 
-2. What is the output
+27. ### What is call back
 
-```javascript
-function curry(f) {
-  return function(a) {
-    return function(b) {
-      return f(a, b);
-    };
-  };
-}
+28. ### Which internal properties are available to the promise object returned by the new Promise constructor
 
-curry(4)(5)(6);
-
-```
-
-3. What is the output
-
-```javascript
-function outerFunc(a, b) {
-  function innerFunc(a, b) {
-    return a + b;
-  }
-
-  const result = innerFunc(a, b);
-
-  return result;
-}
-oupterFunc(4,5);
-
-```
-
-4. What is the output
-
-```javascript
-function outerFunc() {
-  const num1 = 5;
-  const num2 = 10;
-
-  // 👇️ call inner function before it's declared
-  const result = innerFunc();
-
-  function innerFunc() {
-    return num1 + num2;
-  }
-
-  return result;
-}
-
-console.log(outerFunc());
-```
-
-5. What is the output
-
-```Javascript
-function outerFunc() {
-  function innerFunc(a, b) {
-    return a + b;
-  }
-
-  return innerFunc;
-}
-
-const innerFunc = outerFunc();
-
-console.log(innerFunc(2, 3));
-console.log(innerFunc(3, 3));
-```
-
-6. What is the output
-
-```javascript
-function outerFunc() {
-  const z = 100;
-
-  function innerFunc(a, b) {
-    return a + b + z;
-  }
-
-  return innerFunc;
-}
-
-const innerFunc = outerFunc();
-
-console.log(innerFunc(2, 3));
-console.log(innerFunc(3, 3));
-```
-
-7. What is the output
-
-```javascript
-function outerFunc(a) {
-  function innerFunc(b, c) {
-    return a + b + c;
-  }
-
-  return innerFunc;
-}
-
-const innerFunc = outerFunc(10);
-
-console.log(innerFunc(1, 1));
-console.log(innerFunc(1, 2));
-```
-
-8. What is the output
-
-```javascript
-function outerFunc() {
-  function innerFunc(a, b) {
-    return a + b;
-  }
-
-  return {innerFunc};
-}
-
-const outer = outerFunc();
-
-console.log(outer.innerFunc(10, 10));
-console.log(outer.innerFunc(20, 15));
-```
-
-```javascript
-function add(a,b) {
-return  a+b;
-}
-console.log(add(3,4));
-console.log(add(3,4,5));
-```
-
-
-```javascript
-funciton add(){
-    console.log(arguments);
-    var sum = 0;
-    for(var i=0; i< arguments.length;i++){
-        sum += arguments[i];
-    }
-    return sum;
-}
-console.log(add(3,4,6,7));
-```
-
-```javascript
-var x = "outside";
-
-var f1 = function() {
-  var x = "inside f1";
-};
-f1();
-console.log(x);
-```
-
-```javascript
-var f2 = function() {
-  x = "inside f2";
-};
-f2();
-console.log(x);
-```
+--
 
 ---
 
@@ -422,9 +264,11 @@ console.log(x);
     ```
 
  Usage:
+
  1. Functions taht can  be paused and resumed during executions.
 
  Example:
+
 ```javascript
  function* numberGenerator(){
    let num =1;
@@ -532,8 +376,7 @@ console.log(x);
 
 Quesitons:
 
-
 References:
 
-1. https://bobbyhadz.com/blog/javascript-call-function-inside-function
+1. <https://bobbyhadz.com/blog/javascript-call-function-inside-function>
 2. t
