@@ -1,12 +1,11 @@
-# object
-
+# Object question
 
 ## Index
 
-| Sr. No.: | Topic |
-| :--- |  :--- |
-| 01 | Object |
-| 02 | Object constructor |
-| 03 | Object prototpe |
-| 03 | Object properties |
-| 04 | Object methods |
+| Sr. No.: | Question Types |
+| :---: | :--- |
+| 01 | [Descriptivie quesitons](./descriptiveQuestons.md) |
+| 02 | [Difference questions](./differenceQuestions.md) |
+| 03 | [MCQ](./MCQ.md) |
+| 04 | [What is output](./whatIsOutPut.md) |
+| 05 | [Write code for](./writeCodeFor.md) |
