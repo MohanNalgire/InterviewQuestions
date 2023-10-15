@@ -10,9 +10,9 @@ To open topic wise questions click on following links
 
 | No.| Index| YouTube |
 | :---: | :--- | :--- |
-|1|[HTML](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/HTML)| [youtube](https://www.youtube.com/playlist?list=PLX8GfyHHHWxJxot0R-FoKLc2BNIifEqbg) |
+|1|[HTML](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/HTML)| [HTML Tutorial-youtube](https://www.youtube.com/playlist?list=PLX8GfyHHHWxJxot0R-FoKLc2BNIifEqbg) |
 |2|[CSS](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/CSS)|
-|3|[JavaScript](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/JavaScript)|
+|3|[JavaScript](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/JavaScript)|[JavaScript Tutorial-youtube](https://www.youtube.com/playlist?list=PLX8GfyHHHWxJAoq4ncglLVoe2YwgaGIGs) |
 |4|[TypeScript](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/TypeScript)|
 |5|[Angular](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/Angular)|
 |6|[React](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/React)|
@@ -49,7 +49,7 @@ To open topic wise questions click on following links
 
 |No.|code tools- Source Code Management| YouTube |
 | :---: | :---: | :--- |
-| 01 |[Git](https://github.com/MohanNalgire/InterviewQuestions/tree/Database/master/Deployment/DevOps/Git) | [YouTube](https://www.youtube.com/playlist?list=PLX8GfyHHHWxKg2pKk64ALk85zRXg9P3ZM) |
+| 01 |[Git](https://github.com/MohanNalgire/InterviewQuestions/tree/Database/master/Deployment/DevOps/Git) | [Git Tutorial- YouTube](https://www.youtube.com/playlist?list=PLX8GfyHHHWxKg2pKk64ALk85zRXg9P3ZM) |
 | 02 |[GitHub]() | 
 
 
