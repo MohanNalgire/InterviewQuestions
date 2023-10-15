@@ -59,6 +59,8 @@ To open topic wise questions click on following links
 | 02 | Sonatype Nexus | |
 | 03 |[Jenkins](https://github.com/MohanNalgire/InterviewQuestions/tree/Database/master/Deployment/DevOps/) | |
 
+
+
 |No.| Testing tools|
 | :---: | :---: |
 
@@ -72,10 +74,13 @@ Reference : [DevOps testing tools](https://blog.hubspot.com/hs-fs/hubfs/DevOps%2
 | 04 | Travis CI |
 | 05 | Teamcity | 
 | 06 | circle CI | 
+
+
+
 |No.| Deploy tools|
 | :---: | :---: |
-| 01 | aws | |
-| 02 | docker | |
+| 01 | aws | 
+| 02 | docker |
 
 
 |No.| Operation tools|
