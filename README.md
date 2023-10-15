@@ -8,9 +8,9 @@ To open topic wise questions click on following links
 
 ## Front-end technologies ##
 
-| No.| Index|
-| :---: | :--- |
-|1|[HTML](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/HTML)[youtube](https://www.youtube.com/playlist?list=PLX8GfyHHHWxJxot0R-FoKLc2BNIifEqbg) |
+| No.| Index| YouTube |
+| :---: | :--- | :--- |
+|1|[HTML](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/HTML)| [youtube](https://www.youtube.com/playlist?list=PLX8GfyHHHWxJxot0R-FoKLc2BNIifEqbg) |
 |2|[CSS](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/CSS)|
 |3|[JavaScript](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/JavaScript)|
 |4|[TypeScript](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/TypeScript)|
@@ -47,10 +47,10 @@ To open topic wise questions click on following links
 [DevOps process](https://shalb.com/wp-content/uploads/2019/11/Devops1-2048x1338.jpeg)
 
 
-|No.|code tools- Source Code Management|
-| :---: | :---: |
-| 01 |[Git](https://github.com/MohanNalgire/InterviewQuestions/tree/Database/master/Deployment/DevOps/Git) [YouTube](https://www.youtube.com/playlist?list=PLX8GfyHHHWxKg2pKk64ALk85zRXg9P3ZM) |
-| 02 |[GitHub]() |
+|No.|code tools- Source Code Management| YouTube |
+| :---: | :---: | :--- |
+| 01 |[Git](https://github.com/MohanNalgire/InterviewQuestions/tree/Database/master/Deployment/DevOps/Git) | [YouTube](https://www.youtube.com/playlist?list=PLX8GfyHHHWxKg2pKk64ALk85zRXg9P3ZM) |
+| 02 |[GitHub]() | 
 
 
 |No.| Build tools|
