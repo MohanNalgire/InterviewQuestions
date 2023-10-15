@@ -49,7 +49,7 @@ To open topic wise questions click on following links
 
 |No.|code tools- Source Code Management|
 | :---: | :---: | :--- |
-| 01 |[Git](https://github.com/MohanNalgire/InterviewQuestions/tree/Database/master/Deployment/DevOps/Git) | |
+| 01 |[Git](https://github.com/MohanNalgire/InterviewQuestions/tree/Database/master/Deployment/DevOps/Git) |[YouTube](https://www.youtube.com/playlist?list=PLX8GfyHHHWxKg2pKk64ALk85zRXg9P3ZM) |
 | 02 |[GitHub]() | |
 
 |No.| Build tools|
