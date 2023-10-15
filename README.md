@@ -4,6 +4,8 @@
 
 To open topic wise questions click on following links
 
+## Front-end technologies ##
+
 | No.| Index|
 |---- |------- |
 |1|[HTML](https://github.com/MohanNalgire/InterviewQuestions/tree/master/HTML)|
@@ -15,9 +17,30 @@ To open topic wise questions click on following links
 |7|[Vue](https://github.com/MohanNalgire/InterviewQuestions/tree/master/Vue)|
 |8|[jQuery](https://github.com/MohanNalgire/InterviewQuestions/tree/master/jQuery)|
 |9|[NextJS](https://github.com/MohanNalgire/InterviewQuestions/tree/master/NextJS)|
-|10|[NodeJS](https://github.com/MohanNalgire/InterviewQuestions/tree/master/NodeJS)|
-|11|[Ajax](https://github.com/MohanNalgire/InterviewQuestions/tree/master/Ajax)|
-|12|[RxJS](https://github.com/MohanNalgire/InterviewQuestions/tree/master/RxJS)|
+|10|[Ajax](https://github.com/MohanNalgire/InterviewQuestions/tree/master/Ajax)|
+|11|[RxJS](https://github.com/MohanNalgire/InterviewQuestions/tree/master/RxJS)|
+
+## Back-end technologies ##
+
+| No.| Index|
+|---- |------- |
+| 01 |[NodeJS](https://github.com/MohanNalgire/InterviewQuestions/tree/master/NodeJS)|
+| 01 |[php](https://github.com/MohanNalgire/InterviewQuestions/tree/master/php)|
+| 03 |[java](https://github.com/MohanNalgire/InterviewQuestions/tree/master/java)|
+| 04 |[python](https://github.com/MohanNalgire/InterviewQuestions/tree/master/python)|
+
+## Database technologies ##
+
+| No.| Index|
+|---- |------- |
+| 01 |[sql](https://github.com/MohanNalgire/InterviewQuestions/tree/master/sql) |
+| 02 |[MySQL](https://github.com/MohanNalgire/InterviewQuestions/tree/master/MySQL) |
+| 03 |[Oracle](https://github.com/MohanNalgire/InterviewQuestions/tree/master/)|
+| 04 |[PostgreSQL](https://github.com/MohanNalgire/InterviewQuestions/tree/master/PostgreSQL) |
+| 05 |[Neo4J](https://github.com/MohanNalgire/InterviewQuestions/tree/master/)  |
+| 06 |[mongodb](https://github.com/MohanNalgire/InterviewQuestions/tree/master/)  |
+
+
 
 ## Table of Build Tools ##
 
