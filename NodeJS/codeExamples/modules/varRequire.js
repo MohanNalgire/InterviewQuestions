@@ -1,8 +1,9 @@
 // variable assignment require
-const personM = require('./personModule');
+// const personModule = require('./personModule');
+const personModuleCopy = require('./personModuleCopy');
 
-console.log('test on commonJS module', personM);
+console.log('test on commonJS module', personModuleCopy);
 
-personM.printName();
+personModuleCopy.printName();
 
-personM.printRole();
+personModuleCopy.printRole();
