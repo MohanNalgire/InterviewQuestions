@@ -1,4 +1,4 @@
-# variables
+# abstraction
 
 ## Question types
 

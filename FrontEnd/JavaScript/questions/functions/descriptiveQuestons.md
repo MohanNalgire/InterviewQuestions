@@ -104,7 +104,7 @@
 
 | function define ways | regular function  | generator | async await | generator async await |
 | :--- | :--- |:--- |:--- |:--- |
-| Function Declaration | function(){}          | function*(){}          | async function (){}         | async function* (){} |
+| Function Declaration | function(){}| function*(){}| async function (){}| async function* (){} |
 | Function Expression  | const t =function(){} | const t =function*(){} | const t =async function (){}| const test = async function* (){} |
 | Function Constructor | new Function(){} | GeneratorFunction() | AsyncFunction(){}| AsyncGeneratorFunction() |
 Reference : <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions>
