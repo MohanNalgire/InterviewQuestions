@@ -25,14 +25,14 @@
 | 19 | [What are the 2 additional paramters passed to JavaScript functions](#what-are-the-2-additional-paramters-passed-to-javascript-functions) |
 | 20 | [how to use the functions arguments object](#how-to-use-the-functions-arguments-object) |
 | 21 | [What are the function parameter types](#what-are-the-function-parameter-types) |
-| 22 | [What is promise in JavaScript] |
-| 23 | [What are the states in promise] |
-| 24 | [Write promise prototype details ] |
-| 25 | [What is promise chaining] |
-| 26 | [What are the 4 static methods] |
-| 27 | [What is call back ] |
+| 22 | [What is promise in JavaScript](#what-is-promise-in-javascript) |
+| 23 | [What are the states in promise](#what-are-the-states-in-promise)|
+| 24 | [Write promise prototype details](#write-promise-prototype-details) |
+| 25 | [What is promise chaining](#what-is-promise-chaining) |
+| 26 | [What are the 4 static methods](#what-are-the-4-static-methods) |
+| 27 | [What is call back](#what-is-call-back) |
 | 28 | [Which internal properties are available to the promise object returned by the new Promise constructor]
-
+| 29 | [what are the JavaScript brodly used function types](#what-are-the-javascript-brodly-used-function-types) |
 |    | **References** |
 | 01 | JavaScript: The Good Parts by Douglas Crockford |
 
@@ -80,303 +80,58 @@
 
 21. #### What are the function parameter types
 
-   There are two special kinds of parameter syntax
+  There are two special kinds of parameter syntax
     1. default parameters and
     2. rest parameters.
 
-22. ### What is promise in JavaScript
+22. #### What is promise in JavaScript
 
-23. ### What are the states in promise  
+23. #### What are the states in promise  
 
-24. ### Write promise prototype details
+24. #### Write promise prototype details
 
-25. ### What is promise chaining
+25. #### What is promise chaining
 
-26. ### What are the 4 static methods
+26. #### What are the 4 static methods
 
-27. ### What is call back
+27. #### What is call back
 
-28. ### Which internal properties are available to the promise object returned by the new Promise constructor
+28. #### Which internal properties are available to the promise object returned by the new Promise constructor
 
---
+29. #### what are the JavaScript brodly used function types
 
----
+30. #### What are the ways to define every kind of function in JavaScript |
 
-|  |   |
+| function define ways | regular function  | generator | async await | generator async await |
+| :--- | :--- |:--- |:--- |:--- |
+| Function Declaration | function(){}          | function*(){}          | async function (){}         | async function* (){} |
+| Function Expression  | const t =function(){} | const t =function*(){} | const t =async function (){}| const test = async function* (){} |
+| Function Constructor | new Function(){} | GeneratorFunction() | AsyncFunction(){}| AsyncGeneratorFunction() |
+Reference : <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions>
 
-1. Function types
+ 1) Declaration
+    a) function(){}
+    b) function*(){}
+    c) async function (){}
+    d) async function*(){}
 
-    1.1. syntax:
+ 2) Expression
+    a) function(){}
+    b) function*(){}
+    c) async function (){}
+    d) async function*(){}
 
-    ```JavaScript
-        //  function declaration
-        function functionName(paramters){
-        // function body
-        }    
-    ```
+ 3) constructor
+    a) function(){}
+    b) function*(){}
+    c) async function (){}
+    d) async function*(){}
 
-    1.2. usage:
+31. #### What are the ways to define every kind of arrow function in JavaScript |
 
-    1.2.1. call the function by using name functionName();  
-    1.2.2. call in other function  
-
-    1.3. Example:
-
-    ```javascript
-        // function defination or declaration
-          function greetings(){
-            console.log(Good morning'); // function body
-          }
-          // function call
-          greetings();
-    ```
-
----
-
-2. Anonymous funciton
-
-    2.1 syntax:
-
-    ```javaScript
-        function(paramter){
-            // function body
-        }
-    ```
-
-    2.2 usage:
-    2.2.1 by using any DOM(Document Object Model) events or actions
-
-    2.3 Example:
-
-    ```JavaScript
-      document.getElementById('myButton').onClick = fuction(){
-       alert('Button clicked');
-      }
-    ```
-
----
-
- 3. Named function
-
-    3.1. syntax:
-
-    ```javascript
-        function functionName(){}
-    ```
-
-    3.2. usage:
-
-    ```javascript
-        functionName();    
-    ```
-
-    3.3. Example:
-
-    ```javascript
-        function test(){
-          alert('test function');
-        }
-        test();
-    ```
-
----
-
- 4. Named function expresion
-
-    4.1. syntax:
-
-    ```javascript
-        const functionName = function functionName(){}    
-    ```
-
-    4.2. usage:
-
-    4.2.1. to store function vlaue into definied variable  
-
-    4.3 example:
-
-    ```javascript
-         const greeting = function test(){
-          alert('Good Morning!');
-          }
-          greeting();
-    ```
-
----
-
- 5. immediately invoked funciton expresion(IIEF)
-    5.1. syntax:
-
-    ```javascript
-        (
-            function(paramter){
-            // funciton body
-            }
-          )(arguments);
-    ```
-
-    5.2. usage:
-
-    5.2.1. To call on page load.
-    5.2.2. In module creation
-
-    5.3. example:
-
-    ```javascript
-        (
-          function(){
-            alert('Good Morning!');
-          }
-        )();
-    ```
-
----
-
- 6. Arrow funciton
-    6.1. syntax:
-
-    ```javascript
-        const functionName = ()=>{}
-    ```
-
-    6.2. usage:
-    6.2.1. Easy to write
-    6.2.2. To context
-
-    6.3. Example:
-
-    ```javascript
-        const greetings = ()=>{
-          alert('test on greetings fun');
-        }
-        greetings();
-    ```
-
----
-
- 7. Generator funciton
-  7.1. bsyntax:
-
-    ```javascript
-     function* functionName(paramter){
-     // function body
-     }
-    ```
-
- Usage:
-
- 1. Functions taht can  be paused and resumed during executions.
-
- Example:
-
-```javascript
- function* numberGenerator(){
-   let num =1;
-   while(trye){
-   yield num++;
-   }
- }
-```
-
----
-
- 8. Async funciton
- syntax:
-
-```javascript
- async function functionName(paramter){
-       const url = '<https://api.example.com/users/>';
-    const api1 = await fetch(url);
-       const result = await api1.json();
-
-    return result;
-
- }
-```
-
- usage:
- to perform asynchronous actions
-
- example:
-
-```javascript
- function resolveAfter2Seconds() {
- return new Promise((resolve) => {
-    setTimeout(() => {
-      resolve('resolved funtion');
-  }, 2000);
-   });
- }
-
- async function asyncCall(){
-   const result = await resolveAfter2Seconds();
-   console.log('test', result)
- }
- asyncCall();
- ```
-
----
-
-9. call back function
-   9.1. syntax:
-
-```JavaScript
-    // callback Function
-    function callbackFunction() {
-
-    }
-    // function declaration
-   function functionName(param1, callbackFunction){
-   // function body
-   callbackFunction();
-   }
-    // function call
-    functionName(param1, callbackFunction);
-```
-
-  // function declaration
-  // Questions:
-  // Can we pass function as a paramter in JavaScript?
-
-```javascript
-  function greetings(param1, param2){
-    param2();// we are calling this as a function
-  }
-  function testMe(){
-    console.log('executed from testMe function');
-  }
-  // function call
-
-  console.log(typeof testMe);
-  greetings(true, testMe);
-```
-
-// <https://www.programiz.com/javascript/callback>
-
----
-
- 10. promise functions
-   10.1. syntax:
-
-```JavaScript
-    new Promise(
-   (resolve, reject)=>{
-     resolve => {},
-     reject =>{}
-   }
-   );
-```
-
-   10.2. Usage:
-    1. asyncronous task
-
-  10.3. Example:
-  
----
-
-Quesitons:
-
-References:
-
-1. <https://bobbyhadz.com/blog/javascript-call-function-inside-function>
-2. t
+| function define ways | regular function  | generator | async await | generator async await |
+| :--- | :--- |:--- |:--- |:--- |
+| Function Declaration | Not possible   | Not possible | Not possible        | not possible |
+| Function Expression  | const t=()=>{} | Not possible | const t =async()=>{}| Not possible |
+| Function Constructor | not possible   | not possible | not possible        | not possible |
+Reference : <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions>
