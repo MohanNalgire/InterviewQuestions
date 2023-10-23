@@ -1,6 +1,6 @@
 # Object
 
-## Index
+## Question Index
 
 | Sr. No.: | Quesitons |
 | :---: | :--- |
