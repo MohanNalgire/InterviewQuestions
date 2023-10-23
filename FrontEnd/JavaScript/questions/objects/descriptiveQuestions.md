@@ -114,18 +114,18 @@
 
 #### how to use method with object?
 
-#### what are the kinds of object properties
-
 #### How to convert integer value to non-integer in JavaScript Object
 
 #### How to Sort JavaScript Object by Key
 
 #### How to Sort JavaScript Object by values
 
+#### what are the kinds of object properties
+
 In JavaScript, there are two kinds of object properties:
 
-1) Data properties -
-2) Accessor properties - In JavaScript, accessor properties are methods that get or set the value of an object.
+1) Data properties -  
+2) Accessor properties - In JavaScript, accessor properties are methods that get or set the value of an object.  
 
 1. Data property
 
@@ -141,7 +141,7 @@ const student = {
 >
 In JavaScript, accessor properties are methods that get or set the value of an object. For that, we use these two keywords:
 
-get - to define a getter method to get the property value
+get - to define a getter method to get the property value  
 set - to define a setter method to set the property value
 
 ```javascript
@@ -177,8 +177,8 @@ console.log(student.firstName); // Sarah
 
 #### When we said a function as object method in JavaScript
 
-When the value is a function, the property becomes a method. Typically, you use methods to describe the object’s behaviors.
-Example 1:
+When the value is a function, the property becomes a method. Typically, you use methods to describe the object’s behaviors.  
+Example 1:  
 
 ```javascript
 let person = {

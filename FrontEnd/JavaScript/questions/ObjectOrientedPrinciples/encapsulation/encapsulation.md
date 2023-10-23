@@ -1,11 +1,4 @@
-# Object question
-
-## Topic Index
-
-|Sr.No. | Topics |
-| 01 | Object |
-| 02 | Object methods |
-| 03 | |
+# encapsulation
 
 ## Question types
 
