@@ -19,6 +19,8 @@
 
 ### Variables
 
+| | Topics |
+|:--- | :--- |
 ||[white space]()|
 ||[Names]()|
 ||[statements]()|
@@ -50,15 +52,15 @@
 
 | | Topics |
 |:--- | :--- |
-arithmetic operator
-remainder operator
-assignment
-unary
-comparison
-logical
-local assignment
-nullish
-exponentiation
+||arithmetic operator|
+||remainder operator|
+||assignment|
+||unary|
+||comparison|
+||logical|
+||local assignment|
+||nullish|
+||exponentiation|
 
 ### constrol flow statements
 
