@@ -123,7 +123,6 @@
 ||[Augmenting types]()|
 ||[recursion]()|
 ||[scope]()|
-
 ||[callbacks]()|
 ||[function expression vs function declaration]()|
 ||[cascade]()|
