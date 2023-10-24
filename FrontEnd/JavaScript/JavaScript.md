@@ -2,7 +2,7 @@
 
 ## Index
 
-| Sr. No: | Topics  |
+| Sr.No: | Topics  |
 | :---: | :--- |
 | 01 |[Variables](#variables) |
 | 02 |[Data types](#data-types) |
@@ -19,7 +19,7 @@
 
 ### Variables
 
-| | Topics |
+|| Topics |
 |:--- | :--- |
 ||[white space]()|
 ||[Names]()|
@@ -32,7 +32,7 @@
 
 ### Data types
 
-| | Topics |
+|| Topics |
 |:--- | :--- |
 ||[primitive]
 ||[string]()|
@@ -50,7 +50,7 @@
 
 ### Operators
 
-| | Topics |
+|| Topics |
 |:--- | :--- |
 ||arithmetic operator|
 ||remainder operator|
@@ -64,7 +64,7 @@
 
 ### constrol flow statements
 
-| | Topics |
+|| Topics |
 |:--- | :--- |
 ||if|
 ||if...else|
@@ -80,7 +80,7 @@
 
 ### Object
 
-| | Topics |
+|| Topics |
 |:--- | :--- |
 ||[object literals]()|
 ||[object propterties retrieval]()|
@@ -108,7 +108,7 @@
 
 ### Functions
 
-| | Topics |
+|| Topics |
 |:--- | :--- |
 ||[function object]()|
 ||[function literal]()|
@@ -129,10 +129,9 @@
 ||[currying/curry]()|
 ||[Memoization]()|
 
-
 ### Advanced functions
 
-| | Topics |
+|| Topics |
 |:--- | :--- |
 ||function type|
 ||function properties|
@@ -147,26 +146,24 @@
 
 ### Inheritance
 
-| | Topics |
+|| Topics |
 |:--- | :--- |
 ||[pseudoclassical]()|
 ||[Object specifiers]()|
 ||[prototypal]()|
 ||[functional]()|
- ||[functional-shared]()|
+||[functional-shared]()|
 ||[]()|
 
 ### strings
 
-| | Topics |
+|| Topics |
 |:--- | :--- |
-||[]()|
 
 ### arrays
 
-| | Topics |
+|| Topics |
 |:--- | :--- |
-||[]()|
 ||[array literal]()|
 ||[array values]()|
 ||[array as object]()|
@@ -177,9 +174,31 @@
 
 ### promise
 
+|| Topics |
+|:--- | :--- |
+|| Promise |
+|| promise chining |
+|| Promise composition |
+|| Promise.any() |
+|| promise.allSettled()|
+|| promise.prototype.finally()|
+|| promise error handling |
+
 ### async and await
 
+|| Topics |
+|:--- | :--- |
+
 ### iterators & generators
+
+|| Topics |
+|:--- | :--- |
+|| Iterators |
+|| Generators |
+|| yield |
+|| for..of |
+|| asynchronous iterators |
+|| async generators |
 
 ### classes
 
@@ -211,39 +230,66 @@
 
 ### Error Handling
 
-| | Topics |
+|| Topics |
 |:--- | :--- |
-||[]()|
+||try...catch|
+||try...catch...finally|
+||throw|
+||optional catch binding|
 
 ### promises
 
-| | Topics |
+|| Topics |
 |:--- | :--- |
-||[]()|
-
-### async/ await
-
-| | Topics |
-|:--- | :--- |
-||[]()|
-
-### Gernerators
-
-| | Topics |
-|:--- | :--- |
-||[]()|
-
-### Advance iteration
-
-| | Topics |
-|:--- | :--- |
-||[]()|
 
 ### Modules
 
 | | Topics |
 |:--- | :--- |
-||[]()|
+||modules |
+||Import |
+||Dynamic import |
+||Top-level await |
+
+### Symbols
+
+|| Topics |
+|:--- | :--- |
+|| Symbols |
+
+### Collections
+
+|| Topics |
+|:--- | :--- |
+|| Map |
+|| Set |
+
+### Proxy and Reflection
+
+|| Topics |
+|:--- | :--- |
+|| Proxy |
+|| Reflection |
+
+### JavaScript runtime
+
+|| Topics |
+|:--- | :--- |
+|| Execution contexts |
+|| Call stack |
+|| Event loop |
+|| Hoisting |
+|| Variable scopes |
+
+### Primitive Wrapper Types
+
+|| Topics |
+|:--- | :--- |
+|| Primitive wrapper types |
+|| Boolean |
+|| Number |
+|| Bigint |
+|| String type |
 
 Reference:
 
