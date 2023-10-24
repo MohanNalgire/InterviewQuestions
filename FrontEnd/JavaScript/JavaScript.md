@@ -159,6 +159,17 @@
 
 || Topics |
 |:--- | :--- |
+|| Creating strings |
+|| Character access |
+|| Comparing strings |
+|| String coercion |
+|| Tempolate literal |
+|| String concatenation |
+|| String constructor |
+|| String static methods |
+|| String instance properties |
+|| String instance methods |
+|| String conversion |
 
 ### arrays
 
@@ -188,6 +199,13 @@
 
 || Topics |
 |:--- | :--- |
+|| async function |
+|| async function declaration |
+|| async function expression |
+|| async function paramters |
+|| async function execution order |
+|| async function with await concurrency |
+|| Rewriting a Promise chain with an async function |
 
 ### iterators & generators
 
@@ -202,7 +220,7 @@
 
 ### classes
 
-| | Topics |
+|| Topics |
 |:--- | :--- |
 ||es5|
 ||class|
@@ -241,21 +259,65 @@
 
 || Topics |
 |:--- | :--- |
+|| promise |
+|| Using promises |
+|| Promise chaining |
+|| Promise Nesting |
+|| Chaining after a catch |
+|| Common mistakes |
+|| Error handling |
+|| Promise rejection events |
+|| composition |
+|| 1) Promise.all() |
+|| 2) Promise.allSettled() |
+|| 3) Promise.any() |
+|| 4) Promise.race() |
+|| Creating a Promise around an old callback API |
+|| Timing |
+|| Task queues vs microtasks |
+|| When promises and tasks collide |
 
 ### Modules
 
-| | Topics |
+|| Topics |
 |:--- | :--- |
 ||modules |
 ||Import |
 ||Dynamic import |
 ||Top-level await |
+|| Default exports vs named exports |
+|| Avoiding naming conflicts |
+|| Renaming imports and exports |
+|| Creating a module object |
+|| Modules and classes |
+|| Aggregating modules |
+|| Dynamic module loading |
+|| Top level await |
+|| Import declarations are hoisted |
+|| Cyclic imports |
+|| Authoring "isomorphic" modules |
+|| concept - Node Modules |
+|| concept - HTML Modules |
+|| Exporting module features |
+|| Importing modules features into script |
+|| Importing modules using import maps |
+|| Feature dection |
+|| Importing modules as bare names |
+|| Remapping module paths |
+|| Applying the module to your HTML |
+|| Other differences between modules and standard scripts |
+|| Troubleschooting |
 
-### Symbols
+### Symbol
 
 || Topics |
 |:--- | :--- |
-|| Symbols |
+|| Symbol |
+|| Symbol constructor |
+|| Symbol static methods |
+|| Symbol instance properties |
+|| Symbol instance methods |
+|| Symbol type conversion |
 
 ### Collections
 
