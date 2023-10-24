@@ -4,18 +4,18 @@
 
 | Sr. No: | Topics  |
 | :---: | :--- |
-| 01 | [Variables](#variables) |
-| 02 | [Data types](#data-types) |
-| 03 | [Objects](#object) |
-| 04 | [Functions](#functions) |
-| 05 | [inheritance](#inheritance)|
-| 06 | [Classes](#classes) |
-| 07 | [Error Handling](#error-handling) |
-| 08 | [Promises](#promises) |
-| 09 | [async/await](#async-await) |
-| 10 | [Generators](#gernerators) |
-| 11 | [Advanced iteration](#advance-iteration) |
-| 12 | [Modules](#modules) |
+| 01 |[Variables](#variables) |
+| 02 |[Data types](#data-types) |
+| 03 |[Objects](#object) |
+| 04 |[Functions](#functions) |
+| 05 |[inheritance](#inheritance)|
+| 06 |[Classes](#classes) |
+| 07 |[Error Handling](#error-handling) |
+| 08 |[Promises](#promises) |
+| 09 |[async/await](#async-await) |
+| 10 |[Generators](#gernerators) |
+| 11 |[Advanced iteration](#advance-iteration) |
+| 12 |[Modules](#modules) |
 
 ### Variables
 
@@ -26,7 +26,7 @@
 ||[statements]()|
 ||[expressions]()|
 ||[literals]()|
-||[var, let , const]()|
+||[varialbe declaration var, let, const]()|
 ||[NaN]()|
 ||[hoisting]()|
 
@@ -66,17 +66,17 @@
 
 | | Topics |
 |:--- | :--- |
-if
-if...else
-if...else...if
-ternary operators
-switch
-while
-do...while
-for loop
-break
-continue
-comma operator
+||if|
+||if...else|
+||if...else...if|
+||ternary operators|
+||switch|
+||while|
+||do...while|
+||for loop|
+||break|
+||continue|
+||comma operator|
 
 ### Object
 
@@ -87,24 +87,24 @@ comma operator
 ||[object update]()|
 ||[object delete]()|
 ||[object reference]()|
-object methods
-object constructor
-prototypal patter
-prototypal inheritance
-this keyword reference
-globalThis
-for...in loop
-object destructuring 
-object chaining operator
-object litral syntax extensions
+||object methods|
+||object constructor|
+||prototypal patter|
+||prototypal inheritance|
+||this keyword reference|
+||globalThis|
+||for...in loop|
+||object destructuring |
+||object chaining operator|
+||object litral syntax extensions|
 ||[object prototype]()|
 ||[Object configuration falgs and value]()|
-    3 flags
-    1) writable
-    2) configurable
-    3) enumberable
-    And
-    4) value
+||3 flags|
+||1) writable|
+||2) configurable|
+||3) enumberable|
+||And|
+||4) value|
 
 ### Functions
 
@@ -135,12 +135,12 @@ object litral syntax extensions
 
 | | Topics |
 |:--- | :--- |
-function type
-function properties
-function methods
-call()
-apply()
-bind()
+||function type|
+||function properties|
+||function methods|
+||call()|
+||apply()|
+||bind()|
 ||[closure]()|
 ||[IIFE]()|
 ||function returing multiple values|
@@ -186,33 +186,29 @@ bind()
 
 | | Topics |
 |:--- | :--- |
-es5
-class
-creting class
-class constructor
-es6
-class declaration
-creating class
-instantiation
-
-class properties
-class private properties
-class protected properties
-class static properties
-
-class methods
-class private methods
-class static methods
-
-
-JavaScript constructor function
-creating and object from class
-class properties
-class methods
-class getters and setters
-class hoisting
-use strict
-class as special function
+||es5|
+||class|
+||creting class|
+||class constructor|
+||es6|
+||class declaration|
+||creating class|
+||instantiation|
+||class properties|
+||class private properties|
+||class protected properties|
+||class static properties|
+||class methods|
+||class private methods|
+||class static methods|
+||JavaScript constructor function|
+||creating and object from class|
+||class properties|
+||class methods|
+||class getters and setters|
+||class hoisting|
+||use strict|
+||class as special function|
 
 ### Error Handling
 
@@ -238,19 +234,20 @@ class as special function
 |:--- | :--- |
 ||[]()|
 
-## Advance iteration
+### Advance iteration
 
 | | Topics |
 |:--- | :--- |
 ||[]()|
 
-## Modules
+### Modules
 
 | | Topics |
 |:--- | :--- |
 ||[]()|
 
 Reference:
-<https://www.javascripttutorial.net/>
-<https://javascript.info/>
-<https://developer.mozilla.org/en-US/docs/Web/JavaScript>
+
+1) <https://www.javascripttutorial.net/>
+2) <https://javascript.info/>
+3) <https://developer.mozilla.org/en-US/docs/Web/JavaScript>
