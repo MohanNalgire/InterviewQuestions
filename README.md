@@ -1,12 +1,8 @@
-# InterviewQuestions #
-
-## [How to contribute to this project](./gitInstructions.md) ##
-
-## [To learn technologies with me visit topic wise playlists](https://www.youtube.com/@mohannalgire-Itclass) ##
+# InterviewQuestions
 
 To open topic wise questions click on following links
 
-## Front-end technologies ##
+## Front-end technologies
 
 | No.| Index| YouTube |
 | :---: | :--- | :--- |
@@ -22,7 +18,7 @@ To open topic wise questions click on following links
 |10|[Ajax](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/Ajax)| 
 |11|[RxJS](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/RxJS)|
 
-## Back-end technologies ##
+## Back-end technologies
 
 | No.| Index|
 | :---: | :--- |
@@ -31,7 +27,7 @@ To open topic wise questions click on following links
 | 03 |[java](https://github.com/MohanNalgire/InterviewQuestions/tree/master/BackEnd/java)|
 | 04 |[python](https://github.com/MohanNalgire/InterviewQuestions/tree/master/BackEnd/python)|
 
-## Database technologies ##
+## Database technologies
 
 | No.| Index|
 |---- |------- |
@@ -42,7 +38,7 @@ To open topic wise questions click on following links
 | 05 |[Neo4J](https://github.com/MohanNalgire/InterviewQuestions/tree/Database/masterDatabase//Neo4j)  |
 | 06 |[mongodb](https://github.com/MohanNalgire/InterviewQuestions/tree/Database/masterDatabase//mongodb)  |
 
-## DevOps ##
+## DevOps
 
 [DevOps process](https://shalb.com/wp-content/uploads/2019/11/Devops1-2048x1338.jpeg)
 
@@ -95,7 +91,7 @@ Reference : [DevOps testing tools](https://blog.hubspot.com/hs-fs/hubfs/DevOps%2
 | 02 | grafana |
 
 
-## Table of Build Tools ##
+## Table of Build Tools
 
 |No.|Index|
 |---- |------- |
@@ -109,7 +105,7 @@ Reference : [DevOps testing tools](https://blog.hubspot.com/hs-fs/hubfs/DevOps%2
 |8|[WMR]|
 |9|[Rome]|
 
-## Table of Package Manager ##
+## Table of Package Manager
 
 |No.|Index|
 |---- |------- |
@@ -117,3 +113,34 @@ Reference : [DevOps testing tools](https://blog.hubspot.com/hs-fs/hubfs/DevOps%2
 |2|[NPM]|
 |3|[Yarm]|
 |4|[PNPM]|
+
+### test1
+
+#### test2
+
+Sr.NO: | Helpful topics |
+| :--- | :--- |
+| 01 | [How to contribute to this project](./gitInstructions.md) |
+| 02 | [To learn technologies with me visit topic wise playlists](https://www.youtube.com/@mohannalgire-Itclass) |
+| 03 | [How to crate all type of files in question folder for each topic](#how-to-crate-all-type-of-files-in-question-folder-for-each-topic) |
+
+#### How to crate all type of files in question folder for each topic
+>
+Follow these steps
+
+1) Create one topic file with `<topic>.md`
+2) Copy topic file from other folder and paste in `<topic>.md`
+3) click on Index links if links are not opening then create files
+Example:
+In the following table when you click on link from paranthisys it will show you dialog box to create files.
+With this there is no need to type whole file names.
+
+```md
+| Sr. No.: | Question Types |
+| :---: | :--- |
+| 01 | [Descriptivie quesitons](./descriptiveQuestions.md) |
+| 02 | [Difference questions](./differenceQuestions.md) |
+| 03 | [MCQ](./MCQ.md) |
+| 04 | [What is output](./whatIsOutPut.md) |
+| 05 | [Write code for](./writeCodeFor.md) |
+```

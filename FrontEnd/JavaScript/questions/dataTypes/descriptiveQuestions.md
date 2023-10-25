@@ -13,3 +13,5 @@
 | 07 | How to check if a value is falsy in JavaScript |
 | 08 | what are the truthy values in JavaScript |
 | 09 | Which operator is used to determine the type of a particular value or argument? |
+|cencept | hoisting(raising)*[Hoisting](../../../../FrontEnd/JavaScript/questions/variables/descriptiveQuestions.md)*|
+| | |
