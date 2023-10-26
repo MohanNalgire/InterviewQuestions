@@ -77,7 +77,7 @@ Sr.NO: | Topics |
 06. ## Database technologies
 
     | No.| Index|
-    |---- |------- |
+    |:---: | :--- |
     | 01 |[sql](https://github.com/MohanNalgire/InterviewQuestions/tree/master/Database/sql) |
     | 02 |[MySQL](https://github.com/MohanNalgire/InterviewQuestions/tree/master/Database/MySQL) |
     | 03 |[Oracle](https://github.com/MohanNalgire/InterviewQuestions/tree/master/Database/oracle)|
@@ -94,7 +94,7 @@ Sr.NO: | Topics |
     **Source Code Management**
 
     |No.|code tools- Source Code Management| YouTube |
-    | :---: | :---: | :--- |
+    | :---: | :--- | :--- |
     | 01 |[Git](https://github.com/MohanNalgire/InterviewQuestions/tree/Database/master/Deployment/DevOps/Git) | [Git Tutorial- YouTube](https://www.youtube.com/playlist?list=PLX8GfyHHHWxKg2pKk64ALk85zRXg9P3ZM) |
     | 02 |[GitHub]() |
 
@@ -103,7 +103,7 @@ Sr.NO: | Topics |
     **package build tools**
 
     |No.| Build tools|
-    | :---: | :---: |
+    | :---: | :--- |
     | 01 | Gradle | |
     | 02 | Sonatype Nexus | |
     | 03 |[Jenkins](https://github.com/MohanNalgire/InterviewQuestions/tree/Database/master/Deployment/DevOps/) | |
@@ -113,7 +113,7 @@ Sr.NO: | Topics |
     **Testing tools**
 
     |No.| Testing tools|
-    | :---: | :---: |
+    | :---: | :--- |
 
     Reference : [DevOps testing tools](https://blog.hubspot.com/hs-fs/hubfs/DevOps%20Testing%20Tools%202.png?width=650&name=DevOps%20Testing%20Tools%202.png)
 
@@ -122,7 +122,7 @@ Sr.NO: | Topics |
     **Release tools**
 
     |No.| Release tools|
-    | :---: | :---: |
+    | :---: | :--- |
     | 01 | jenkins |
     | 02 | open stack |
     | 03 | Gitlab CI |
@@ -135,7 +135,7 @@ Sr.NO: | Topics |
     **Deploy tools**
 
     |No.| Deploy tools|
-    | :---: | :---: |
+    | :---: | :--- |
     | 01 | aws |
     | 02 | docker |
 
@@ -144,7 +144,7 @@ Sr.NO: | Topics |
     **Operation tools**
 
     |No.| Operation tools|
-    | :---: | :---: |
+    | :---: | :--- |
     | 01 | checf |
     | 02 | ansible |
     | 03 | kubernets |
@@ -154,7 +154,7 @@ Sr.NO: | Topics |
     **Monitoring tools**
 
     |No.| Monitoring tools|
-    | :---: | :---: |
+    | :---: | :--- |
     | 01 | graylog |
     | 02 | grafana |
 
@@ -163,7 +163,7 @@ Sr.NO: | Topics |
     **Table of Build Tools**
 
     |No.|Index|
-    |---- |------- |
+    |:---: | :--- |
     |1|[Webpack]|
     |2|[turbopack]|
     |3|[ESBuild]|
@@ -179,7 +179,7 @@ Sr.NO: | Topics |
     **Table of Package Manager**
 
     |No.|Index|
-    |---- |------- |
+    |:---: | :--- |
     |1|[Bower]|
     |2|[NPM]|
     |3|[Yarm]|
