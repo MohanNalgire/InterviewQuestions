@@ -12,8 +12,8 @@
 | 06 |[Classes](#classes) |
 | 07 |[Error Handling](#error-handling) |
 | 08 |[Promises](#promises) |
-| 09 |[async/await](#async-await) |
-| 10 |[Generators](#gernerators) |
+| 09 |[async And await](#async-and-await) |
+| 10 |[Generators](#generators) |
 | 11 |[Advanced iteration](#advance-iteration) |
 | 12 |[Modules](#modules) |
 
@@ -207,15 +207,20 @@
 || async function with await concurrency |
 || Rewriting a Promise chain with an async function |
 
-### iterators & generators
+### generators
 
 || Topics |
 |:--- | :--- |
 || Iterators |
 || Generators |
+|| asynchronous iterators |
+
+### Advanced iterators
+
+|| Topics |
+|:--- | :--- |
 || yield |
 || for..of |
-|| asynchronous iterators |
 || async generators |
 
 ### classes
