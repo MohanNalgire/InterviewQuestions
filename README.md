@@ -6,7 +6,7 @@ Sr.NO: | Topics |
 | :--- | :--- |
 | 01 | [How to contribute to this project](./gitInstructions.md) |
 | 02 | [To learn technologies with me visit topic wise playlists](https://www.youtube.com/@mohannalgire-Itclass) |
-| 03 | [How to crate all type of files in question folder for each topic](#how-to-crate-all-type-of-files-in-question-folder-for-each-topic) |
+| 03 | [How to create all type of files in question folder for each topic](#how-to-create-all-type-of-files-in-question-folder-for-each-topic) |
 | 04 | [Front-end technologies](#front-end-technologies)|
 | 05 | [Back-end technologies](#back-end-technologies)|
 | 06 | [Database technologies](#database-technologies)|
@@ -18,155 +18,171 @@ Sr.NO: | Topics |
 || 5) [Operation tools](#operation-tools)|
 || 6) [Monitoring tools](#monitoring-tools)|
 
-## How to crate all type of files in question folder for each topic
->
-Follow these steps
+01. ## How to contribute to this project(./gitInstructions.md)
 
-1) Create one topic file with `<topic>.md`
-2) Copy topic file from other folder and paste in `<topic>.md`
-3) click on Index links if links are not opening then create files
-Example:
-In the following table when you click on link from paranthisys it will show you dialog box to create files.
-With this there is no need to type whole file names.
+02. ## To learn technologies with me visit topic wise playlists (<https://www.youtube.com/@mohannalgire-Itclass>)
 
-```md
-| Sr. No.: | Question Types |
-| :---: | :--- |
-| 01 | [Descriptivie quesitons](./descriptiveQuestions.md) |
-| 02 | [Difference questions](./differenceQuestions.md) |
-| 03 | [MCQ](./MCQ.md) |
-| 04 | [What is output](./whatIsOutPut.md) |
-| 05 | [Write code for](./writeCodeFor.md) |
-```
+03. ## How to create all type of files in question folder for each topic
 
-To open topic wise questions click on following links
+    Follow these steps
 
-## Front-end technologies
+    1) Create one topic file with `<topic>.md`
+    2) Copy topic file from other folder and paste in `<topic>.md`
+    3) click on Index links if links are not opening then create files
+    Example:
+    In the following table when you click on link from paranthisys it will show you dialog box to create files.
+    With this there is no need to type whole file names.
 
-| No.| Index| YouTube |
-| :---: | :--- | :--- |
-|1|[HTML](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/HTML)| [HTML Tutorial-youtube](https://www.youtube.com/playlist?list=PLX8GfyHHHWxJxot0R-FoKLc2BNIifEqbg) |
-|2|[CSS](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/CSS)|
-|3|[JavaScript](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/JavaScript)|[JavaScript Tutorial-youtube](https://www.youtube.com/playlist?list=PLX8GfyHHHWxJAoq4ncglLVoe2YwgaGIGs) |
-|4|[TypeScript](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/TypeScript)|
-|5|[Angular](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/Angular)|
-|6|[React](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/React)|
-|7|[Vue](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/Vue)| 
-|8|[jQuery](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/jQuery)|  
-|9|[NextJS](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/NextJS)| 
-|10|[Ajax](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/Ajax)| 
-|11|[RxJS](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/RxJS)|
-**[⬆ Back to Top](#content Index)**
+    ```md
+    | Sr. No.: | Question Types |
+    | :---: | :--- |
+    | 01 | [Descriptivie quesitons](./descriptiveQuestions.md) |
+    | 02 | [Difference questions](./differenceQuestions.md) |
+    | 03 | [MCQ](./MCQ.md) |
+    | 04 | [What is output](./whatIsOutPut.md) |
+    | 05 | [Write code for](./writeCodeFor.md) |
+    ```
 
-## Back-end technologies
+    To open topic wise questions click on following links
 
-| No.| Index|
-| :---: | :--- |
-| 01 |[NodeJS](https://github.com/MohanNalgire/InterviewQuestions/tree/master/BackEnd/NodeJS)|
-| 01 |[php](https://github.com/MohanNalgire/InterviewQuestions/tree/master/BackEnd/php)|
-| 03 |[java](https://github.com/MohanNalgire/InterviewQuestions/tree/master/BackEnd/java)|
-| 04 |[python](https://github.com/MohanNalgire/InterviewQuestions/tree/master/BackEnd/python)|
-**[⬆ Back to Top](#content Index)**
+04. ## Front-end technologies
 
-## Database technologies
+    | No.| Index| YouTube |
+    | :---: | :--- | :--- |
+    |1|[HTML](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/HTML)| [HTML Tutorial-youtube](https://www.youtube.com/playlist?list=PLX8GfyHHHWxJxot0R-FoKLc2BNIifEqbg) |
+    |2|[CSS](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/CSS)|
+    |3|[JavaScript](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/JavaScript)|[JavaScript Tutorial-youtube](https://www.youtube.com/playlist?list=PLX8GfyHHHWxJAoq4ncglLVoe2YwgaGIGs) |
+    |4|[TypeScript](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/TypeScript)|
+    |5|[Angular](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/Angular)|
+    |6|[React](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/React)|
+    |7|[Vue](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/Vue)|
+    |8|[jQuery](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/jQuery)|  
+    |9|[NextJS](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/NextJS)|
+    |10|[Ajax](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/Ajax)|
+    |11|[RxJS](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/RxJS)|
 
-| No.| Index|
-|---- |------- |
-| 01 |[sql](https://github.com/MohanNalgire/InterviewQuestions/tree/master/Database/sql) |
-| 02 |[MySQL](https://github.com/MohanNalgire/InterviewQuestions/tree/master/Database/MySQL) |
-| 03 |[Oracle](https://github.com/MohanNalgire/InterviewQuestions/tree/master/Database/oracle)|
-| 04 |[PostgreSQL](https://github.com/MohanNalgire/InterviewQuestions/tree/master/Database/PostgreSQL) |
-| 05 |[Neo4J](https://github.com/MohanNalgire/InterviewQuestions/tree/Database/masterDatabase//Neo4j)  |
-| 06 |[mongodb](https://github.com/MohanNalgire/InterviewQuestions/tree/Database/masterDatabase//mongodb)  |
-**[⬆ Back to Top](#content Index)**
+    **[⬆ Back to Top](#content Index)**
 
-## DevOps
+05. ## Back-end technologies
 
-[DevOps process](https://shalb.com/wp-content/uploads/2019/11/Devops1-2048x1338.jpeg)
+    | No.| Index|
+    | :---: | :--- |
+    | 01 |[NodeJS](https://github.com/MohanNalgire/InterviewQuestions/tree/master/BackEnd/NodeJS)|
+    | 01 |[php](https://github.com/MohanNalgire/InterviewQuestions/tree/master/BackEnd/php)|
+    | 03 |[java](https://github.com/MohanNalgire/InterviewQuestions/tree/master/BackEnd/java)|
+    | 04 |[python](https://github.com/MohanNalgire/InterviewQuestions/tree/master/BackEnd/python)|
 
-## Source Code Management
+    **[⬆ Back to Top](#content Index)**
 
-|No.|code tools- Source Code Management| YouTube |
-| :---: | :---: | :--- |
-| 01 |[Git](https://github.com/MohanNalgire/InterviewQuestions/tree/Database/master/Deployment/DevOps/Git) | [Git Tutorial- YouTube](https://www.youtube.com/playlist?list=PLX8GfyHHHWxKg2pKk64ALk85zRXg9P3ZM) |
-| 02 |[GitHub]() | 
-**[⬆ Back to Top](#content Index)**
+06. ## Database technologies
 
-## package build tools
+    | No.| Index|
+    |---- |------- |
+    | 01 |[sql](https://github.com/MohanNalgire/InterviewQuestions/tree/master/Database/sql) |
+    | 02 |[MySQL](https://github.com/MohanNalgire/InterviewQuestions/tree/master/Database/MySQL) |
+    | 03 |[Oracle](https://github.com/MohanNalgire/InterviewQuestions/tree/master/Database/oracle)|
+    | 04 |[PostgreSQL](https://github.com/MohanNalgire/InterviewQuestions/tree/master/Database/PostgreSQL) |
+    | 05 |[Neo4J](https://github.com/MohanNalgire/InterviewQuestions/tree/Database/masterDatabase//Neo4j)  |
+    | 06 |[mongodb](https://github.com/MohanNalgire/InterviewQuestions/tree/Database/masterDatabase//mongodb)  |
 
-|No.| Build tools|
-| :---: | :---: |
-| 01 | Gradle | |
-| 02 | Sonatype Nexus | |
-| 03 |[Jenkins](https://github.com/MohanNalgire/InterviewQuestions/tree/Database/master/Deployment/DevOps/) | |
-**[⬆ Back to Top](#content Index)**
+    **[⬆ Back to Top](#content Index)**
 
-## Testing tools
+07. ## DevOps
 
-|No.| Testing tools|
-| :---: | :---: |
+    [DevOps process](https://shalb.com/wp-content/uploads/2019/11/Devops1-2048x1338.jpeg)
 
-Reference : [DevOps testing tools](https://blog.hubspot.com/hs-fs/hubfs/DevOps%20Testing%20Tools%202.png?width=650&name=DevOps%20Testing%20Tools%202.png)
-**[⬆ Back to Top](#content Index)**
+    **Source Code Management**
 
-## Release tools
+    |No.|code tools- Source Code Management| YouTube |
+    | :---: | :---: | :--- |
+    | 01 |[Git](https://github.com/MohanNalgire/InterviewQuestions/tree/Database/master/Deployment/DevOps/Git) | [Git Tutorial- YouTube](https://www.youtube.com/playlist?list=PLX8GfyHHHWxKg2pKk64ALk85zRXg9P3ZM) |
+    | 02 |[GitHub]() |
 
-|No.| Release tools|
-| :---: | :---: |
-| 01 | jenkins |
-| 02 | open stack |
-| 03 | Gitlab CI |
-| 04 | Travis CI |
-| 05 | Teamcity |
-| 06 | circle CI |
-**[⬆ Back to Top](#content Index)**
+    **[⬆ Back to Top](#content Index)**
 
-## Deploy tools
+    **package build tools**
 
-|No.| Deploy tools|
-| :---: | :---: |
-| 01 | aws |
-| 02 | docker |
-**[⬆ Back to Top](#content Index)**
+    |No.| Build tools|
+    | :---: | :---: |
+    | 01 | Gradle | |
+    | 02 | Sonatype Nexus | |
+    | 03 |[Jenkins](https://github.com/MohanNalgire/InterviewQuestions/tree/Database/master/Deployment/DevOps/) | |
 
-## Operation tools
+    **[⬆ Back to Top](#content Index)**
 
-|No.| Operation tools|
-| :---: | :---: |
-| 01 | checf |
-| 02 | ansible |
-| 03 | kubernets |
-**[⬆ Back to Top](#content Index)**
+    **Testing tools**
 
-## Monitoring tools
+    |No.| Testing tools|
+    | :---: | :---: |
 
-|No.| Monitoring tools|
-| :---: | :---: |
-| 01 | graylog |
-| 02 | grafana |
-**[⬆ Back to Top](#content Index)**
+    Reference : [DevOps testing tools](https://blog.hubspot.com/hs-fs/hubfs/DevOps%20Testing%20Tools%202.png?width=650&name=DevOps%20Testing%20Tools%202.png)
 
-## Table of Build Tools
+    **[⬆ Back to Top](#content Index)**
 
-|No.|Index|
-|---- |------- |
-|1|[Webpack]|
-|2|[turbopack]|
-|3|[ESBuild]|
-|4|[Vite]|
-|5|[Parcel]|
-|6|[Rollup]|
-|7|[SWC-Speedy Web Compiler]|
-|8|[WMR]|
-|9|[Rome]|
-**[⬆ Back to Top](#content Index)**
+    **Release tools**
 
-## Table of Package Manager
+    |No.| Release tools|
+    | :---: | :---: |
+    | 01 | jenkins |
+    | 02 | open stack |
+    | 03 | Gitlab CI |
+    | 04 | Travis CI |
+    | 05 | Teamcity |
+    | 06 | circle CI |
 
-|No.|Index|
-|---- |------- |
-|1|[Bower]|
-|2|[NPM]|
-|3|[Yarm]|
-|4|[PNPM]|
-**[⬆ Back to Top](#content Index)**
+    **[⬆ Back to Top](#content Index)**
+
+    **Deploy tools**
+
+    |No.| Deploy tools|
+    | :---: | :---: |
+    | 01 | aws |
+    | 02 | docker |
+
+    **[⬆ Back to Top](#content Index)**
+
+    **Operation tools**
+
+    |No.| Operation tools|
+    | :---: | :---: |
+    | 01 | checf |
+    | 02 | ansible |
+    | 03 | kubernets |
+
+    **[⬆ Back to Top](#content Index)**
+
+    **Monitoring tools**
+
+    |No.| Monitoring tools|
+    | :---: | :---: |
+    | 01 | graylog |
+    | 02 | grafana |
+
+    **[⬆ Back to Top](#content Index)**
+
+    **Table of Build Tools**
+
+    |No.|Index|
+    |---- |------- |
+    |1|[Webpack]|
+    |2|[turbopack]|
+    |3|[ESBuild]|
+    |4|[Vite]|
+    |5|[Parcel]|
+    |6|[Rollup]|
+    |7|[SWC-Speedy Web Compiler]|
+    |8|[WMR]|
+    |9|[Rome]|
+
+    **[⬆ Back to Top](#content Index)**
+
+    **Table of Package Manager**
+
+    |No.|Index|
+    |---- |------- |
+    |1|[Bower]|
+    |2|[NPM]|
+    |3|[Yarm]|
+    |4|[PNPM]|
+
+    **[⬆ Back to Top](#content Index)**
