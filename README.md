@@ -61,7 +61,7 @@ Sr.NO: | Topics |
     |10|[Ajax](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/Ajax)|
     |11|[RxJS](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/RxJS)|
 
-    **[⬆ Back to Top](#content Index)**
+    **[⬆ Back to Top](#content-index)**
 
 05. ## Back-end technologies
 
@@ -72,7 +72,7 @@ Sr.NO: | Topics |
     | 03 |[java](https://github.com/MohanNalgire/InterviewQuestions/tree/master/BackEnd/java)|
     | 04 |[python](https://github.com/MohanNalgire/InterviewQuestions/tree/master/BackEnd/python)|
 
-    **[⬆ Back to Top](#content Index)**
+    **[⬆ Back to Top](#content-index)**
 
 06. ## Database technologies
 
@@ -85,7 +85,7 @@ Sr.NO: | Topics |
     | 05 |[Neo4J](https://github.com/MohanNalgire/InterviewQuestions/tree/Database/masterDatabase//Neo4j)  |
     | 06 |[mongodb](https://github.com/MohanNalgire/InterviewQuestions/tree/Database/masterDatabase//mongodb)  |
 
-    **[⬆ Back to Top](#content Index)**
+    **[⬆ Back to Top](#content-index)**
 
 07. ## DevOps
 
@@ -98,7 +98,7 @@ Sr.NO: | Topics |
     | 01 |[Git](https://github.com/MohanNalgire/InterviewQuestions/tree/Database/master/Deployment/DevOps/Git) | [Git Tutorial- YouTube](https://www.youtube.com/playlist?list=PLX8GfyHHHWxKg2pKk64ALk85zRXg9P3ZM) |
     | 02 |[GitHub]() |
 
-    **[⬆ Back to Top](#content Index)**
+    **[⬆ Back to Top](#content-index)**
 
     **package build tools**
 
@@ -108,7 +108,7 @@ Sr.NO: | Topics |
     | 02 | Sonatype Nexus | |
     | 03 |[Jenkins](https://github.com/MohanNalgire/InterviewQuestions/tree/Database/master/Deployment/DevOps/) | |
 
-    **[⬆ Back to Top](#content Index)**
+    **[⬆ Back to Top](#content-index)**
 
     **Testing tools**
 
@@ -117,7 +117,7 @@ Sr.NO: | Topics |
 
     Reference : [DevOps testing tools](https://blog.hubspot.com/hs-fs/hubfs/DevOps%20Testing%20Tools%202.png?width=650&name=DevOps%20Testing%20Tools%202.png)
 
-    **[⬆ Back to Top](#content Index)**
+    **[⬆ Back to Top](#content-index)**
 
     **Release tools**
 
@@ -130,7 +130,7 @@ Sr.NO: | Topics |
     | 05 | Teamcity |
     | 06 | circle CI |
 
-    **[⬆ Back to Top](#content Index)**
+    **[⬆ Back to Top](#content-index)**
 
     **Deploy tools**
 
@@ -139,7 +139,7 @@ Sr.NO: | Topics |
     | 01 | aws |
     | 02 | docker |
 
-    **[⬆ Back to Top](#content Index)**
+    **[⬆ Back to Top](#content-index)**
 
     **Operation tools**
 
@@ -149,7 +149,7 @@ Sr.NO: | Topics |
     | 02 | ansible |
     | 03 | kubernets |
 
-    **[⬆ Back to Top](#content Index)**
+    **[⬆ Back to Top](#content-index)**
 
     **Monitoring tools**
 
@@ -158,7 +158,7 @@ Sr.NO: | Topics |
     | 01 | graylog |
     | 02 | grafana |
 
-    **[⬆ Back to Top](#content Index)**
+    **[⬆ Back to Top](#content-index)**
 
     **Table of Build Tools**
 
@@ -174,7 +174,7 @@ Sr.NO: | Topics |
     |8|[WMR]|
     |9|[Rome]|
 
-    **[⬆ Back to Top](#content Index)**
+    **[⬆ Back to Top](#content-index)**
 
     **Table of Package Manager**
 
@@ -185,4 +185,4 @@ Sr.NO: | Topics |
     |3|[Yarm]|
     |4|[PNPM]|
 
-    **[⬆ Back to Top](#content Index)**
+    **[⬆ Back to Top](#content-index)**
