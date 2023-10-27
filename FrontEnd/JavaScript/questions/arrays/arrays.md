@@ -16,8 +16,6 @@
 || What is associative array |
 
 
-
-
 Array methods
 
 Array.prototype[@@iterator]()
@@ -32,47 +30,47 @@ Array.prototype.every()
 Array.prototype.fill()
 Array.prototype.filter()
 Array.prototype.find()
-.findIndex()
-.findLast()
-.findLastIndex()
-.flat()
-.flatMap()
-.forEach()
-.form()
-.formAsync()
+Array.prototype.findIndex()
+Array.prototype.findLast()
+Array.prototype.findLastIndex()
+Array.prototype.flat()
+Array.prototype.flatMap()
+Array.prototype.forEach()
+Array.prototype.form()
+Array.prototype.formAsync()
 
-.includes()
-.indexOf()
-.isArray()
+Array.prototype.includes()
+Array.prototype.indexOf()
+Array.prototype.isArray()
 
-.join()
-.keys()
+Array.prototype.join()
+Array.prototype.keys()
 
-.lastIndexOf()
+Array.prototype.lastIndexOf()
 
-.map()
+Array.prototype.map()
 
-.of()
-.pop()
-.push()
+Array.prototype.of()
+Array.prototype.pop()
+Array.prototype.push()
 
-.reduce()
-.reduceRight()
-.reverse()
+Array.prototype.reduce()
+Array.prototype.reduceRight()
+Array.prototype.reverse()
 
-.shift()
-.slice()
-.some()
-.splice()
+Array.prototype.shift()
+Array.prototype.slice()
+Array.prototype.some()
+Array.prototype.splice()
 
-.toLocalString()
-.toReversed()
-.toSorted()
-.toSpliced()
-.toString()
+Array.prototype.toLocalString()
+Array.prototype.toReversed()
+Array.prototype.toSorted()
+Array.prototype.toSpliced()
+Array.prototype.toString()
 
-.unshift()
+Array.prototype.unshift()
 
-.values()
+Array.prototype.values()
 
-.with()
+Array.prototype.with()
