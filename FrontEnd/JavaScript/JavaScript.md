@@ -105,6 +105,7 @@
 ||3) enumberable|
 ||And|
 ||4) value|
+||Built-in Object|
 
 ### Functions
 
