@@ -4,42 +4,42 @@
 
 | Sr.No. | Topics |
 | :---: | :--- |
-|| History|
-|| Overview & Introduction|
-|| Data types in Java|
-|| Variables|
-|| Constants, and Literals|
-|| Arrays|
-|| Operators|
-|| control statements|
-|| classes|
-|| Methods in Java|
+| 01 | History|
+| 02 | Overview & Introduction|
+| 03 | Data types in Java|
+| 04 | Variables|
+| 05 | Constants, and Literals|
+| 06 | Operators|
+| 07 | control statements|
+| 06 | Arrays|
+| 07 | classes|
 || 1) Contructor in Java|
-|| 2) Modifiers in Java|
-|| 3) Static Ketword|
-|| 4) Final keyword|
-|| 5) Inner class in Java|
-|| 6) OOPs concepts|
-|| 7) Encapsulation|
-|| 8) Inheritance|
-|| 9) Polymorphism|
-|| 10) Abstraction|
-|| Packages|
-|| Exception handling|
-|| Multithreaded programming|
-|| Enumeration|
-|| Autoboxing |
-|| Annotations|
-|| I/O |
-|| Generics|
-|| Lambda Expression|
-|| Modules|
-|| Garbage collection|
-|| Collections Framework|
-|| Serialization|
-|| Reflection in Java|
-|| String, string Buffer, String  builder|
-|| JDBC|
+|| 2) class Methods in Java|
+|| 3) Modifiers in Java|
+|| 4) Static Ketword|
+|| 5) Final keyword|
+|| 6) Inner class in Java|
+|| 7) OOPs concepts|
+|| 8) Encapsulation|
+|| 9) Inheritance|
+|| 10) Polymorphism|
+|| 11) Abstraction|
+| 08 | Packages|
+| 09 | Exception handling|
+| 10 | Multithreaded programming|
+| 11 | Enumeration|
+| 12 | Autoboxing |
+| 13 | Annotations|
+| 14 | I/O |
+| 15 | Generics|
+| 16 | Lambda Expression|
+| 17 | Modules|
+| 18 | Garbage collection|
+| 19 | Collections Framework|
+| 20 | Serialization|
+| 21 | Reflection in Java|
+| 22 | String, string Buffer, String  builder|
+| 23 | JDBC|
 
 Reference :
 
