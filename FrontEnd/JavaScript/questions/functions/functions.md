@@ -9,3 +9,8 @@
 | 03 | [MCQ](./MCQ.md) |
 | 04 | [What is output](./whatIsOutPut.md) |
 | 05 | [Write code for](./writeCodeFor.md) |
+
+## Function
+## Function constructor
+## Function properties
+## Function methods

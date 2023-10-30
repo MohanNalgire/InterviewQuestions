@@ -25,6 +25,8 @@
 ||Why ES6 class expressions are not hoisted |
 ||why Es6 classes are first class citizens |
 ||why ES6 classes are executed in strict mode |
+||In how many ways we can define classes |
+
 
 ### What is the representation of this in JavaScript?
 >
@@ -66,6 +68,21 @@ You can see a general description of function overloading in Javascript here:
 How to overload functions in javascript?
 
 If you have widely varying versions of the constructor, then you can change it to take exactly one object and then just assign the desired properties to the object before calling the function. Your code will then interrogate the object and see what was passed and adjust its behavior accordingly.
+
+### In how many ways we can define classes
+>
+Classes are special functions. Like functionss we can define classes in 2 ways 
+    1) class expression
+    2) class description
+Class expressions may be anonumous, or have a name that's dofferet from the variable that it's assigned to.
+
+### 
+
+
+
+
+
+
 
 #### Reference
 

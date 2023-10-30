@@ -10,13 +10,28 @@
 | 04 | [What is output](./whatIsOutPut.md) |
 | 05 | [Write code for](./writeCodeFor.md) |
 
-| Sr. No.: | Quesitons |
-| :---: | :--- |
-|| What is array in JavaScript |
-|| What is associative array |
+## Array destructuring
 
+|| Object destructuring in JavaScript |
+|| object destructuring patterns in JavaScript |
+|| Adding a new variable in destructing |
+|| Object destructuring and default value |
+|| 1) default value rules |
+|| 2) rest property |
+|| 3) destructuring with more elements than the source |
+|| 4) swapping variables |
+|| 5) Add aliases in destructuring object |
+|| 6) Nested object destructring |
+|| 7) Dynamic Name property in object destructuring |
+|| Function related destructuring |
+|| 1) Destructure of the Function paramter |
+|| 2) Destructure Function return value |
+|| 3) Ignoring some returned values |
+|| Destructure in loops |
+|| 1) for  |
+|| 2) for...of |
 
-Array methods
+## Array methods
 
 Array.prototype[@@iterator]()
 Array.prototype.at()
