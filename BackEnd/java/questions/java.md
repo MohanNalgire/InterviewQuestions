@@ -45,12 +45,3 @@ Reference :
 
 1) <https://www.accessengineeringlibrary.com/content/book/9781260463415>
 
-### types of classes in java
-
-1) static class
-2) final class
-3) abstract class
-4) concrete class
-5) singleton class
-6) POJO class
-7) Inner class
