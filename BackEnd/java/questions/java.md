@@ -5,7 +5,7 @@
 | Sr.No. | Topics |
 | :---: | :--- |
 | 01 | History|
-| 02 | Overview & Introduction|
+| 02 | Basic of Java |
 | 03 | Data types in Java|
 | 04 | Variables|
 | 05 | Constants, and Literals|
@@ -44,4 +44,3 @@
 Reference :
 
 1) <https://www.accessengineeringlibrary.com/content/book/9781260463415>
-

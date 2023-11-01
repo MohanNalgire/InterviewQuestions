@@ -9,3 +9,11 @@
 | 03 | [MCQ](./MCQ.md) |
 | 04 | [What is output](./whatIsOutPut.md) |
 | 05 | [Write code for](./writeCodeFor.md) |
+
+### Enumeration topics
+
+| 01 | Enumeration |
+| 02 | Need of enumeration |
+| 03 | Examples of enumeration |
+| 04 | Defining of Java enum |
+| 05 | Initialization of specific values to Java Enum |
