@@ -2,7 +2,7 @@
 
 ## Index
 
-| Sr. No: | Topics  |
+| Sr.No: | Topics  |
 | :---: | :--- |
 | 01 |[Variables](#variables) |
 | 02 |[Data types](#data-types) |
@@ -12,14 +12,14 @@
 | 06 |[Classes](#classes) |
 | 07 |[Error Handling](#error-handling) |
 | 08 |[Promises](#promises) |
-| 09 |[async/await](#async-await) |
-| 10 |[Generators](#gernerators) |
+| 09 |[async And await](#async-and-await) |
+| 10 |[Generators](#generators) |
 | 11 |[Advanced iteration](#advance-iteration) |
 | 12 |[Modules](#modules) |
 
 ### Variables
 
-| | Topics |
+|| Topics |
 |:--- | :--- |
 ||[white space]()|
 ||[Names]()|
@@ -32,7 +32,7 @@
 
 ### Data types
 
-| | Topics |
+|| Topics |
 |:--- | :--- |
 ||[primitive]
 ||[string]()|
@@ -50,7 +50,7 @@
 
 ### Operators
 
-| | Topics |
+|| Topics |
 |:--- | :--- |
 ||arithmetic operator|
 ||remainder operator|
@@ -64,7 +64,7 @@
 
 ### constrol flow statements
 
-| | Topics |
+|| Topics |
 |:--- | :--- |
 ||if|
 ||if...else|
@@ -80,7 +80,7 @@
 
 ### Object
 
-| | Topics |
+|| Topics |
 |:--- | :--- |
 ||[object literals]()|
 ||[object propterties retrieval]()|
@@ -105,10 +105,11 @@
 ||3) enumberable|
 ||And|
 ||4) value|
+||Built-in Object|
 
 ### Functions
 
-| | Topics |
+|| Topics |
 |:--- | :--- |
 ||[function object]()|
 ||[function literal]()|
@@ -129,10 +130,9 @@
 ||[currying/curry]()|
 ||[Memoization]()|
 
-
 ### Advanced functions
 
-| | Topics |
+|| Topics |
 |:--- | :--- |
 ||function type|
 ||function properties|
@@ -147,26 +147,35 @@
 
 ### Inheritance
 
-| | Topics |
+|| Topics |
 |:--- | :--- |
 ||[pseudoclassical]()|
 ||[Object specifiers]()|
 ||[prototypal]()|
 ||[functional]()|
- ||[functional-shared]()|
+||[functional-shared]()|
 ||[]()|
 
 ### strings
 
-| | Topics |
+|| Topics |
 |:--- | :--- |
-||[]()|
+|| Creating strings |
+|| Character access |
+|| Comparing strings |
+|| String coercion |
+|| Tempolate literal |
+|| String concatenation |
+|| String constructor |
+|| String static methods |
+|| String instance properties |
+|| String instance methods |
+|| String conversion |
 
 ### arrays
 
-| | Topics |
+|| Topics |
 |:--- | :--- |
-||[]()|
 ||[array literal]()|
 ||[array values]()|
 ||[array as object]()|
@@ -177,13 +186,47 @@
 
 ### promise
 
+|| Topics |
+|:--- | :--- |
+|| Promise |
+|| promise chining |
+|| Promise composition |
+|| Promise.any() |
+|| promise.allSettled()|
+|| promise.prototype.finally()|
+|| promise error handling |
+
 ### async and await
 
-### iterators & generators
+|| Topics |
+|:--- | :--- |
+|| async function |
+|| async function declaration |
+|| async function expression |
+|| async function paramters |
+|| async function execution order |
+|| async function with await concurrency |
+|| Rewriting a Promise chain with an async function |
+
+### generators
+
+|| Topics |
+|:--- | :--- |
+|| Iterators |
+|| Generators |
+|| asynchronous iterators |
+
+### Advanced iterators
+
+|| Topics |
+|:--- | :--- |
+|| yield |
+|| for..of |
+|| async generators |
 
 ### classes
 
-| | Topics |
+|| Topics |
 |:--- | :--- |
 ||es5|
 ||class|
@@ -211,39 +254,110 @@
 
 ### Error Handling
 
-| | Topics |
+|| Topics |
 |:--- | :--- |
-||[]()|
+||try...catch|
+||try...catch...finally|
+||throw|
+||optional catch binding|
 
 ### promises
 
-| | Topics |
+|| Topics |
 |:--- | :--- |
-||[]()|
-
-### async/ await
-
-| | Topics |
-|:--- | :--- |
-||[]()|
-
-### Gernerators
-
-| | Topics |
-|:--- | :--- |
-||[]()|
-
-### Advance iteration
-
-| | Topics |
-|:--- | :--- |
-||[]()|
+|| promise |
+|| Using promises |
+|| Promise chaining |
+|| Promise Nesting |
+|| Chaining after a catch |
+|| Common mistakes |
+|| Error handling |
+|| Promise rejection events |
+|| composition |
+|| 1) Promise.all() |
+|| 2) Promise.allSettled() |
+|| 3) Promise.any() |
+|| 4) Promise.race() |
+|| Creating a Promise around an old callback API |
+|| Timing |
+|| Task queues vs microtasks |
+|| When promises and tasks collide |
 
 ### Modules
 
-| | Topics |
+|| Topics |
 |:--- | :--- |
-||[]()|
+||modules |
+||Import |
+||Dynamic import |
+||Top-level await |
+|| Default exports vs named exports |
+|| Avoiding naming conflicts |
+|| Renaming imports and exports |
+|| Creating a module object |
+|| Modules and classes |
+|| Aggregating modules |
+|| Dynamic module loading |
+|| Top level await |
+|| Import declarations are hoisted |
+|| Cyclic imports |
+|| Authoring "isomorphic" modules |
+|| concept - Node Modules |
+|| concept - HTML Modules |
+|| Exporting module features |
+|| Importing modules features into script |
+|| Importing modules using import maps |
+|| Feature dection |
+|| Importing modules as bare names |
+|| Remapping module paths |
+|| Applying the module to your HTML |
+|| Other differences between modules and standard scripts |
+|| Troubleschooting |
+
+### Symbol
+
+|| Topics |
+|:--- | :--- |
+|| Symbol |
+|| Symbol constructor |
+|| Symbol static methods |
+|| Symbol instance properties |
+|| Symbol instance methods |
+|| Symbol type conversion |
+
+### Collections
+
+|| Topics |
+|:--- | :--- |
+|| Map |
+|| Set |
+
+### Proxy and Reflection
+
+|| Topics |
+|:--- | :--- |
+|| Proxy |
+|| Reflection |
+
+### JavaScript runtime
+
+|| Topics |
+|:--- | :--- |
+|| Execution contexts |
+|| Call stack |
+|| Event loop |
+|| Hoisting |
+|| Variable scopes |
+
+### Primitive Wrapper Types
+
+|| Topics |
+|:--- | :--- |
+|| Primitive wrapper types |
+|| Boolean |
+|| Number |
+|| Bigint |
+|| String type |
 
 Reference:
 
