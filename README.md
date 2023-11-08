@@ -59,7 +59,7 @@ Sr.NO: | Topics |
     |8|[jQuery](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/jQuery)|  
     |9|[NextJS](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/NextJS)|
     |10|[Ajax](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/Ajax)|
-    |11|[RxJS](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/RxJS)|
+    |11|[RxJS](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/RxJS)|<https://github.com/MohanNalgire/RXJs-Examples> |
 
     **[⬆ Back to Top](#content-index)**
 
