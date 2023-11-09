@@ -14,12 +14,12 @@
 | 08 |[Promises](#promises) |
 | 09 |[async And await](#async-and-await) |
 | 10 |[Generators](#generators) |
-| 11 |[Advanced iteration](#advance-iteration) |
+| 11 |[Advanced iterators](#advanced-iterators) |
 | 12 |[Modules](#modules) |
 
 ### Variables
 
-|| Topics |
+| Sr. No.: | Topics |
 |:--- | :--- |
 ||[white space]()|
 ||[Names]()|
