@@ -1,6 +1,6 @@
-# Variables
+# keywords
 
-## Variables Index
+## keywords topics
 
 ### Question types
 
@@ -11,4 +11,3 @@
 | 03 | [MCQ](./MCQ.md) |
 | 04 | [What is output](./whatIsOutPut.md) |
 | 05 | [Write code for](./writeCodeFor.md) |
-
