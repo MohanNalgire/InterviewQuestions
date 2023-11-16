@@ -22,6 +22,7 @@
            1) void type
            2) never type
            3) unknown type
+   
     2.  Type annotations
         1.  Type annotations on variables
         2.  Functions
@@ -33,23 +34,33 @@
         4.  Union Types
            1) Defining a Union types
            2) Working with Union types
-    3.  Type assertions
-    4.  Advanced types
+
+    3.  Advanced types
         1.  Literal types
         2.  Union types
             1)  Diuscriminated union
             2)  tagged union
         3.  Intersection types
-    5.  Less Common Primitives
-    6.  Type guards
+
+    4.  Less Common Primitives
+
+    5.  Type guards
         1.  InstanceOf type guards
         2.  Other type guards
-    7.  Type aliases
-    8.  Type inferance
-    9.  type assertion
-    10. Type casting
-    11. Interfaces
-    12. 
+
+    6.  Type aliases
+
+    7.  Type inferance
+
+    8.  type assertion
+
+    9.  Type casting & non-casting
+        1.  Type casting
+            1. type widening or up casting
+            2. type narrowing or down casting
+
+    10. Interfaces
+ 
 
 
 
