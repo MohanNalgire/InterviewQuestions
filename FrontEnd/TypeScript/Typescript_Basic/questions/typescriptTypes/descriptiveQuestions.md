@@ -224,7 +224,7 @@ These are type annotations. You cannot change the value using a different data t
 ---
 ### 09. type cating and non-casting ##
 
-### what is `type converison`/ `type cating` in typescript?
+### what is `type converison` / `type cating` in typescript?
 
 `Type cating` - Type castings allow you to covert a varaible from one type to another.
 - Type casting is a feature in TypeScript that allows developers to explicitly change the type of a value from one type to another.
