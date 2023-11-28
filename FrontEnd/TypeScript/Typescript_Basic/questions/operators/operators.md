@@ -1,7 +1,7 @@
 
-# Identifiers
+# Operators
 
-## Identifiers Index
+## Operators Index
 
 ### Question types
 

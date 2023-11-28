@@ -1,7 +1,7 @@
 
-# Identifiers
+# Promises
 
-## Identifiers Index
+## Promises Index
 
 ### Question types
 

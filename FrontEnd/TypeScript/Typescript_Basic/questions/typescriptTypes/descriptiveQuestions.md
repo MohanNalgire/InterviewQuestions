@@ -17,7 +17,7 @@
 
 In software programming, data type refers to the type of value a variable has and what type of mathematical, relational or logical operations can be applied without causing an error. For example, many programming languages use the data type string to classify text, integer to identify whole numbers and floating point to designate numbers with decimal points.
 
-### What is `type checking`` in compiler design?
+### What is `type checking` in compiler design?
 
 - `Type checking` is the process of verifying and enforcing constraints of types in values.
 -  A compiler must check that the source program should follow the syntactic and semantic conventions of the source language and it should also check the type rules of the language. 
@@ -56,13 +56,13 @@ There are two kinds of type checking:
 | Undefined       | undefined | Denotes value given to uninitialized variable                          |
 | Symbol          |           |                                                                        |
 
-### What re the non-primitive data types in typescript?
+### What are the `non-primitive` data types in typescript?
 
 | Non-Primitive Types | keyword | Description |
 | :------------------ | :------ | :---------- |
 | Object              |         |             |
 
-### what are the special data types in typescript?
+### what are the `special data` types in typescript?
 
 | Special Types | keyword | Description                             |
 | :------------ | :------ | :-------------------------------------- |
@@ -113,7 +113,7 @@ Intersection type
 
 These are type annotations. You cannot change the value using a different data type other than the declared data type of a variable. If you try to do so, TypeScript compiler will show an error. This helps in catching JavaScript errors. 
 
-### What are the types of type annotations in typescript?
+### What are the types of `type annotations` in typescript?
 
 | Sr. NO. | Annotation tpye                | Annotation type description |
 | :-----: | :----------------------------- | :-------------------------- |
@@ -126,14 +126,13 @@ These are type annotations. You cannot change the value using a different data t
 |   07    | Functions                      |                             |
 |   08    | Objects                        |                             |
 |   09    | Type annotations in TypeScript |                             |
-|   10    | V A R                          |                             |
-|   11    | Any                            |                             |
-|   12    | Classes                        |                             |
-|   13    | Conditional types              |                             |
-|   14    | Function parameter annotation  |                             |
-|   15    | Keyof type operator            |                             |
-|   16    | Mapped types                   |                             |
-|   17    | Type assertions                |                             |
+|   10    | Any                            |                             |
+|   11    | Classes                        |                             |
+|   12    | Conditional types              |                             |
+|   13    | Function parameter annotation  |                             |
+|   14    | Keyof type operator            |                             |
+|   15    | Mapped types                   |                             |
+|   16    | Type assertions                |                             |
 
 
 ### What are the benifits of using type annotation?
@@ -146,14 +145,7 @@ These are type annotations. You cannot change the value using a different data t
 
 ### Can you use JavaScript `typeof` operator in typescript?
 
-### What is difference between `Type Aliases` and `Interfaces`
-
-    | Diff Point             | Interface             | Type                         |
-    | :--------------------- | :-------------------- | :--------------------------- |
-    | Extending an interface | use `extends` keyword | use intersections symbol `&` |
-    | Can redeclare          | Yes                   | No                           |
-    |                        |
-
+Yes we cab yse **typeof** operator in Typescript also.
 
 1. ### How many premitives in Javascirpt and typescript are there?
 
@@ -198,12 +190,22 @@ These are type annotations. You cannot change the value using a different data t
 
 
 
-### What is differece in Java and Typscirpt type annotations?
+### What is differece in **Java** and **Typscirpt** type annotations?
 
-    TypeScript doesn’t use “types on the left”-style declarations like int x = 0; Type annotations will always go after the thing being typed.
+TypeScript doesn’t use “types on the left”-style declarations like int x = 0; Type annotations will always go after the thing being typed.
 
 
 ### What is functions paramter type annotations?
+
+
+### What are the problems with inference for **Functions** in typescript?
+
+- TypeScript infers the type of variables when there is no explicit information available in the form of type annotations. 
+- Typescript never infers function arguments. So, unless we specify them, they are always going to be any. 
+- Type inference does not work for parameters in the case of functions. It only guesses the type of the return statement.
+
+### Why is TypeScript unable to infer the type of function parameters when implementing a generic interface?
+
 
 ### What is functions return type annoations?
 
