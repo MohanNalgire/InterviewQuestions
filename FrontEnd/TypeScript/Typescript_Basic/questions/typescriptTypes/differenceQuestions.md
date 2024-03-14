@@ -15,3 +15,13 @@
 
 
 ### `union types` vs `discriminated union types`?
+
+
+### What is difference between `Type Aliases` and `Interfaces`
+
+    | Diff Point             | Interface             | Type                         |
+    | :--------------------- | :-------------------- | :--------------------------- |
+    | Extending an interface | use `extends` keyword | use intersections symbol `&` |
+    | Can redeclare          | Yes                   | No                           |
+    |                        |
+

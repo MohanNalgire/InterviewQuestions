@@ -1,0 +1,1 @@
+# Find prime number from the given number

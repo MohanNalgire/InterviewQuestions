@@ -1,7 +1,7 @@
 
-# Identifiers
+# Objects
 
-## Identifiers Index
+## Objects Index
 
 ### Question types
 
