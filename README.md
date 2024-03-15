@@ -55,15 +55,15 @@
     | :---: | :----------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------ |
     |  01   | [HTML](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/HTML)             | [HTML Tutorial-youtube](https://www.youtube.com/playlist?list=PLX8GfyHHHWxJxot0R-FoKLc2BNIifEqbg)       |
     |  02   | [CSS](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/CSS)               |
-    |  03   | [JavaScript](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/JavaScript) | [JavaScript Tutorial-youtube](https://www.youtube.com/playlist?list=PLX8GfyHHHWxJAoq4ncglLVoe2YwgaGIGs) |
-    |  04   | [TypeScript](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/TypeScript) |
-    |  05   | [Angular](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/Angular)       |
-    |  06   | [React](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/React)           |
-    |  07   | [Vue](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/Vue)               |
-    |  08   | [jQuery](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/jQuery)         |
-    |  09   | [NextJS](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/NextJS)         |
-    |  10   | [Ajax](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/Ajax)             |
-    |  11   | [RxJS](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/RxJS)             | <https://github.com/MohanNalgire/RXJs-Examples>                                                         |
+    |  03   | [JavaScript](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/JavaScript/JavaScript.md) | [JavaScript Tutorial-youtube](https://www.youtube.com/playlist?list=PLX8GfyHHHWxJAoq4ncglLVoe2YwgaGIGs) |
+    |  04   | [TypeScript](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/TypeScript/TypeScript.md) |
+    |  05   | [Angular](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/Angular/Angular.md)       |
+    |  06   | [React](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/React/React.md)           |
+    |  07   | [Vue](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/Vue/Vue.md)               |
+    |  08   | [jQuery](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/jQuery/jQuery.md)         |
+    |  09   | [NextJS](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/NextJS/NextJS.md)         |
+    |  10   | [Ajax](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/Ajax?Ajax.md)             |
+    |  11   | [RxJS](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/RxJS/RxJS.md)             | <https://github.com/MohanNalgire/RXJs-Examples>                                                         |
 
     **[⬆ Back to Top](#content-index)**
 
@@ -71,10 +71,10 @@
 
     |  No.  | Index                                                                                   |
     | :---: | :-------------------------------------------------------------------------------------- |
-    |  01   | [NodeJS](https://github.com/MohanNalgire/InterviewQuestions/tree/master/BackEnd/NodeJS) |
-    |  01   | [php](https://github.com/MohanNalgire/InterviewQuestions/tree/master/BackEnd/php)       |
-    |  03   | [java](https://github.com/MohanNalgire/InterviewQuestions/tree/master/BackEnd/java)     |
-    |  04   | [python](https://github.com/MohanNalgire/InterviewQuestions/tree/master/BackEnd/python) |
+    |  01   | [NodeJS](https://github.com/MohanNalgire/InterviewQuestions/tree/master/BackEnd/NodeJS?NodeJS.md) |
+    |  01   | [php](https://github.com/MohanNalgire/InterviewQuestions/tree/master/BackEnd/php/php.md)       |
+    |  03   | [java](https://github.com/MohanNalgire/InterviewQuestions/tree/master/BackEnd/java?Java.md)     |
+    |  04   | [python](https://github.com/MohanNalgire/InterviewQuestions/tree/master/BackEnd/python/Python.md) |
 
     **[⬆ Back to Top](#content-index)**
 
