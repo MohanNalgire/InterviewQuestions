@@ -51,43 +51,43 @@
 
 5.  ## Front-end technologies
 
-    |  No.  | Index                                                                                            | YouTube                                                                                                 |
-    | :---: | :----------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------ |
-    |  01   | [HTML](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/HTML)             | [HTML Tutorial-youtube](https://www.youtube.com/playlist?list=PLX8GfyHHHWxJxot0R-FoKLc2BNIifEqbg)       |
-    |  02   | [CSS](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/CSS)               |
-    |  03   | [JavaScript](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/JavaScript/JavaScript.md) | [JavaScript Tutorial-youtube](https://www.youtube.com/playlist?list=PLX8GfyHHHWxJAoq4ncglLVoe2YwgaGIGs) |
-    |  04   | [TypeScript](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/TypeScript/TypeScript.md) |
-    |  05   | [Angular](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/Angular/Angular.md)       |
-    |  06   | [React](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/React/React.md)           |
-    |  07   | [Vue](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/Vue/Vue.md)               |
-    |  08   | [jQuery](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/jQuery/jQuery.md)         |
-    |  09   | [NextJS](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/NextJS/NextJS.md)         |
-    |  10   | [Ajax](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/Ajax?Ajax.md)             |
-    |  11   | [RxJS](https://github.com/MohanNalgire/InterviewQuestions/tree/master/FrontEnd/RxJS/RxJS.md)             | <https://github.com/MohanNalgire/RXJs-Examples>                                                         |
+    |  No.  | Index                                             | YouTube                                                                                                 |
+    | :---: | :------------------------------------------------ | :------------------------------------------------------------------------------------------------------ |
+    |  01   | [HTML](./FrontEnd/HTML/HTML.md)                   | [HTML Tutorial-youtube](https://www.youtube.com/playlist?list=PLX8GfyHHHWxJxot0R-FoKLc2BNIifEqbg)       |
+    |  02   | [CSS](./FrontEnd/CSS/CSS.md)                      |
+    |  03   | [JavaScript](./FrontEnd/JavaScript/JavaScript.md) | [JavaScript Tutorial-youtube](https://www.youtube.com/playlist?list=PLX8GfyHHHWxJAoq4ncglLVoe2YwgaGIGs) |
+    |  04   | [TypeScript](./FrontEnd/TypeScript/TypeScript.md) |
+    |  05   | [Angular](./FrontEnd/Angular/Angular.md)          |
+    |  06   | [React](./FrontEnd/React/React.md)                |
+    |  07   | [Vue](./FrontEnd/Vue/Vue.md)                      |
+    |  08   | [jQuery](./FrontEnd/jQuery/jQuery.md)             |
+    |  09   | [NextJS](./FrontEnd/NextJS/NextJS.md)             |
+    |  10   | [Ajax](./FrontEnd/Ajax?Ajax.md)                   |
+    |  11   | [RxJS](./FrontEnd/RxJS/RxJS.md)                   | <https://github.com/MohanNalgire/RXJs-Examples>                                                         |
 
     **[⬆ Back to Top](#content-index)**
 
 6.  ## Back-end technologies
 
-    |  No.  | Index                                                                                   |
-    | :---: | :-------------------------------------------------------------------------------------- |
-    |  01   | [NodeJS](https://github.com/MohanNalgire/InterviewQuestions/tree/master/BackEnd/NodeJS?NodeJS.md) |
-    |  01   | [php](https://github.com/MohanNalgire/InterviewQuestions/tree/master/BackEnd/php/php.md)       |
-    |  03   | [java](https://github.com/MohanNalgire/InterviewQuestions/tree/master/BackEnd/java?Java.md)     |
-    |  04   | [python](https://github.com/MohanNalgire/InterviewQuestions/tree/master/BackEnd/python/Python.md) |
+    |  No.  | Index                                |
+    | :---: | :----------------------------------- |
+    |  01   | [NodeJS](./BackEnd/NodeJS?NodeJS.md) |
+    |  01   | [php](./BackEnd/php/php.md)          |
+    |  03   | [java](./BackEnd/java?Java.md)       |
+    |  04   | [python](./BackEnd/python/Python.md) |
 
     **[⬆ Back to Top](#content-index)**
 
 7.  ## Database technologies
 
-    |  No.  | Index                                                                                               |
-    | :---: | :-------------------------------------------------------------------------------------------------- |
-    |  01   | [sql](https://github.com/MohanNalgire/InterviewQuestions/tree/master/Database/sql)                  |
-    |  02   | [MySQL](https://github.com/MohanNalgire/InterviewQuestions/tree/master/Database/MySQL)              |
-    |  03   | [Oracle](https://github.com/MohanNalgire/InterviewQuestions/tree/master/Database/oracle)            |
-    |  04   | [PostgreSQL](https://github.com/MohanNalgire/InterviewQuestions/tree/master/Database/PostgreSQL)    |
-    |  05   | [Neo4J](https://github.com/MohanNalgire/InterviewQuestions/tree/Database/masterDatabase//Neo4j)     |
-    |  06   | [mongodb](https://github.com/MohanNalgire/InterviewQuestions/tree/Database/masterDatabase//mongodb) |
+    |  No.  | Index                                             |
+    | :---: | :------------------------------------------------ |
+    |  01   | [sql](./Database/sql/sql.md)                      |
+    |  02   | [MySQL](./Database/MySQL/MySQL.md)                |
+    |  03   | [Oracle](./Database/oracle/oracle.md)             |
+    |  04   | [PostgreSQL](./Database/PostgreSQL/PostgreSQL.md) |
+    |  05   | [Neo4J](./Database/Neo4j/Neo4j.md)                |
+    |  06   | [mongodb](./Database/mongodb/mongodb.md)          |
 
     **[⬆ Back to Top](#content-index)**
 
@@ -97,20 +97,20 @@
 
     **Source Code Management**
 
-    |  No.  | code tools- Source Code Management                                                                   | YouTube                                                                                           |
-    | :---: | :--------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------ |
-    |  01   | [Git](https://github.com/MohanNalgire/InterviewQuestions/tree/Database/master/Deployment/DevOps/Git) | [Git Tutorial- YouTube](https://www.youtube.com/playlist?list=PLX8GfyHHHWxKg2pKk64ALk85zRXg9P3ZM) |
-    |  02   | [GitHub]()                                                                                           |
+    |  No.  | code tools- Source Code Management    | YouTube                                                                                           |
+    | :---: | :------------------------------------ | :------------------------------------------------------------------------------------------------ |
+    |  01   | [Git](./Deployment/DevOps/Git/Git.md) | [Git Tutorial- YouTube](https://www.youtube.com/playlist?list=PLX8GfyHHHWxKg2pKk64ALk85zRXg9P3ZM) |
+    |  02   | [GitHub]()                            |
 
     **[⬆ Back to Top](#content-index)**
 
     **package build tools**
 
-    |  No.  | Build tools                                                                                           |
-    | :---: | :---------------------------------------------------------------------------------------------------- |
-    |  01   | Gradle                                                                                                |
-    |  02   | Sonatype Nexus                                                                                        |
-    |  03   | [Jenkins](https://github.com/MohanNalgire/InterviewQuestions/tree/Database/master/Deployment/DevOps/) |
+    |  No.  | Build tools                              |
+    | :---: | :--------------------------------------- |
+    |  01   | Gradle                                   |
+    |  02   | Sonatype Nexus                           |
+    |  03   | [Jenkins](./Deployment/DevOps/DevOps.md) |
 
     **[⬆ Back to Top](#content-index)**
 
