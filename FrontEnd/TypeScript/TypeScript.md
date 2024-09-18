@@ -168,7 +168,7 @@
 |         | 5) MSBuild                                           |
 |         | 6) NuGet                                             |
 |         |                                                      |
-|         | **Testing**                                              |
+|         | **Testing**                                          |
 |         | Unit testing                                         |
 |         |                                                      |
 |         |                                                      |

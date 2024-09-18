@@ -43,7 +43,9 @@
 
 ### How to declare class
 
-### 
+### What is statck initialization block in JavaScript class
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Static_initialization_blocks
+
 ### How to declare class properties in JavaScript
 
 ### what is class constructor
