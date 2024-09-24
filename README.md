@@ -8,16 +8,19 @@
 | 02     | [To learn technologies with me visit topic wise playlists](https://www.youtube.com/@mohannalgire-Itclass)                               |
 | 03     | [How to create all type of files in question folder for each topic](#how-to-create-all-type-of-files-in-question-folder-for-each-topic) |
 | 04     | [How to use markdown (Editor => vs code with Extension=>Markdown All in One)](#how-to-use-markdown)                                     |
-| 04     | [Front-end technologies](#front-end-technologies)                                                                                       |
-| 05     | [Back-end technologies](#back-end-technologies)                                                                                         |
-| 06     | [Database technologies](#database-technologies)                                                                                         |
-| 07     | [DevOps](#devops)                                                                                                                       |
+| 05     | [Front-end technologies](#front-end-technologies)                                                                                       |
+| 06     | [Back-end technologies](#back-end-technologies)                                                                                         |
+| 07     | [Database technologies](#database-technologies)                                                                                         |
+| 08     | [DevOps](#devops)                                                                                                                       |
 |        | 01) [Build tools](#table-of-build-tools)                                                                                                |
 |        | 02) [Testing tools](#testing-tools)                                                                                                     |
 |        | 03) [Release tools](#release-tools)                                                                                                     |
 |        | 04) [Deploy tools](#deploy-tools)                                                                                                       |
 |        | 05) [Operation tools](#operation-tools)                                                                                                 |
 |        | 06) [Monitoring tools](#monitoring-tools)                                                                                               |
+|        |                                                                                                                                         |
+| 09     | [Application Architectures](#application-architectures)                                                                                 |
+|        |                                                                                                                                         |
 
 1.  ## How to contribute to this project(./gitInstructions.md)
 
@@ -49,7 +52,7 @@
 4.  ## How to use markdown
     Reference : https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one
 
-5.  ## Front-end technologies
+5.  ## [Front-end technologies](./FrontEnd/Frontend.md)
 
     |  No.  | Index                                             | YouTube                                                                                                 |
     | :---: | :------------------------------------------------ | :------------------------------------------------------------------------------------------------------ |
@@ -67,7 +70,7 @@
 
     **[⬆ Back to Top](#content-index)**
 
-6.  ## Back-end technologies
+6.  ## [Back-end technologies](./BackEnd/Backend.md)
 
     |  No.  | Index                                |
     | :---: | :----------------------------------- |
@@ -78,7 +81,7 @@
 
     **[⬆ Back to Top](#content-index)**
 
-7.  ## Database technologies
+7.  ## [Database technologies](./Databases/Databases.md)
 
     |  No.  | Index                                             |
     | :---: | :------------------------------------------------ |
@@ -91,7 +94,7 @@
 
     **[⬆ Back to Top](#content-index)**
 
-8.  ## DevOps
+8.  ## [DevOps](./Deployment/DevOps/DevOps.md)
 
     [DevOps process](https://shalb.com/wp-content/uploads/2019/11/Devops1-2048x1338.jpeg)
 
@@ -189,4 +192,8 @@
     |   3   | [Yarm]  |
     |   4   | [PNPM]  |
 
+    **[⬆ Back to Top](#content-index)**
+
+
+9.  ## [Application Architectures](./Architectures/Architectures.md)
     **[⬆ Back to Top](#content-index)**
