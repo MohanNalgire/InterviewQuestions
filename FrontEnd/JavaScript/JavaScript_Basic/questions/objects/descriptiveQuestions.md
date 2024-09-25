@@ -70,7 +70,7 @@ In javaScript we can create object in following ways
     obj.lastName = "Nalgire";
     console.log(obj);
 ```
-[Code Examples](../../codeExamples/objects/object_creation_literal.js)
+[Code Examples](../../codeExamples/objects/object_creation/object_creation_literal.js)
 
 2. Using the `new Object()`
 
@@ -81,7 +81,7 @@ In javaScript we can create object in following ways
 
     console.log(obj);
 ```
-[Code Examples](../../codeExamples/objects/object_creation_new_object.js)
+[Code Examples](../../codeExamples/objects/object_creation/object_creation_new_object.js)
 
 3. `Object.create()` method
    
@@ -93,7 +93,7 @@ In javaScript we can create object in following ways
         }
     );
 ```
-[Code Examples](../../codeExamples/objects/object_creation_object_create.js)
+[Code Examples](../../codeExamples/objects/object_creation/object_creation_object_create.js)
 
 4. Factory Function
 
@@ -106,7 +106,7 @@ In javaScript we can create object in following ways
     }
     console.log(createObj());
 ```
-[Code Examples](../../codeExamples/objects/object_creation_factory_function.js)
+[Code Examples](../../codeExamples/objects/object_creation/object_creation_factory_function.js)
 
 
 5. ECMAScript 6 classes
@@ -123,7 +123,7 @@ In javaScript we can create object in following ways
     console.log(userDetails);
     
 ```
-[Code Examples](../../codeExamples/objects/object_creation_ECMAScript_class.js)
+[Code Examples](../../codeExamples/objects/object_creation/object_creation_ECMAScript_class.js)
 
 
 4. Constructor function
@@ -136,7 +136,7 @@ In javaScript we can create object in following ways
     const userDetails = new User("Mohan", "Nalgire");
     console.log(userDetails);
 ```
-[Code Examples](../../codeExamples/objects/object_creation_constructor_function.js)
+[Code Examples](../../codeExamples/objects/object_creation/object_creation_constructor_function.js)
 
 5. Using `JSON.parse()` method from string 
 
@@ -145,7 +145,7 @@ In javaScript we can create object in following ways
     const obj = JSON.parse(stringObj);
     console.log(obj);
 ```
-[Code Examples](../../codeExamples/objects/object_creation_json_parse.js)
+[Code Examples](../../codeExamples/objects/object_creation/object_creation_json_parse.js)
 
 6. Using `Object.assign()`
 
@@ -153,7 +153,7 @@ In javaScript we can create object in following ways
     const obj = Object.assign({}, { "firstName":"Mohan", "lastName":"Nalgire" });
     console.log(obj);
 ```
-[Code Examples](../../codeExamples/objects/object_creation_constructor_object_assign.js)
+[Code Examples](../../codeExamples/objects/object_creation/object_creation_constructor_object_assign.js)
 
 
 #### Is it mandetory in object to define properties at start
