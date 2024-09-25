@@ -56,10 +56,10 @@
 
 5.  ## [Front-end technologies](./FrontEnd/Frontend.md)
 
-    |  No.  | Index                                             | YouTube                                                                                                 |
-    | :---: | :------------------------------------------------ | :------------------------------------------------------------------------------------------------------ |
-    |  01   | [HTML](./FrontEnd/HTML/HTML.md)                   | [HTML Tutorial-youtube](https://www.youtube.com/playlist?list=PLX8GfyHHHWxJxot0R-FoKLc2BNIifEqbg)       |
-    |  02   | [CSS](./FrontEnd/CSS/CSS.md)                      |
+    |  No.  | Index                                             | YouTube                                                                                                 | Links                                           |
+    | :---: | :------------------------------------------------ | :------------------------------------------------------------------------------------------------------ | :---------------------------------------------- |
+    |  01   | [HTML](./FrontEnd/HTML/HTML.md)                   | [HTML Tutorial-youtube](https://www.youtube.com/playlist?list=PLX8GfyHHHWxJxot0R-FoKLc2BNIifEqbg)       |                                                 |
+    |  02   | [CSS](./FrontEnd/CSS/CSS.md)                      |                                                                                                         |
     |  03   | [JavaScript](./FrontEnd/JavaScript/JavaScript.md) | [JavaScript Tutorial-youtube](https://www.youtube.com/playlist?list=PLX8GfyHHHWxJAoq4ncglLVoe2YwgaGIGs) |
     |  04   | [TypeScript](./FrontEnd/TypeScript/TypeScript.md) |
     |  05   | [Angular](./FrontEnd/Angular/Angular.md)          |
@@ -68,7 +68,7 @@
     |  08   | [jQuery](./FrontEnd/jQuery/jQuery.md)             |
     |  09   | [NextJS](./FrontEnd/NextJS/NextJS.md)             |
     |  10   | [Ajax](./FrontEnd/Ajax?Ajax.md)                   |
-    |  11   | [RxJS](./FrontEnd/RxJS/RxJS.md)                   | <https://github.com/MohanNalgire/RXJs-Examples>                                                         |
+    |  11   | [RxJS](./FrontEnd/RxJS/RxJS.md)                   |                                                                                                         | <https://github.com/MohanNalgire/RXJs-Examples> |
 
     **[⬆ Back to Top](#content-index)**
 

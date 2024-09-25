@@ -17,7 +17,7 @@
 |   11   | [Advanced iteration](#advance-iteration) |
 |   12   | [Modules](#modules)                      |
 
-### [Variables](./questions/variables/)
+### [Variables](./questions/variables/variables.md)
 
 |      | Topics                                   |
 | :--- | :--------------------------------------- |
@@ -30,7 +30,7 @@
 |      | [NaN]()                                  |
 |      | [hoisting]()                             |
 
-### [Data types](./questions/dataTypes/)
+### [Data types](./questions/dataTypes/dataTypes.md)
 
 |      | Topics                 |
 | :--- | :--------------------- |
@@ -48,7 +48,7 @@
 |      | [object]()             |
 |      | array                  |
 
-### [Operators](./questions/operators/)
+### [Operators](./questions/operators/operators.md)
 
 |      | Topics              |
 | :--- | :------------------ |
@@ -62,7 +62,7 @@
 |      | nullish             |
 |      | exponentiation      |
 
-### [constrol flow statements](./questions/controlFlowStatements/)
+### [constrol flow statements](./questions/controlFlowStatements/controlFlowStatements.md)
 
 |      | Topics            |
 | :--- | :---------------- |
@@ -78,7 +78,7 @@
 |      | continue          |
 |      | comma operator    |
 
-### [Object](./questions/objects/)
+### [Object](./questions/objects/objects.md)
 
 |      | Topics                                   |
 | :--- | :--------------------------------------- |
@@ -107,7 +107,7 @@
 |      | 4) value                                 |
 |      | Built-in Object                          |
 
-### [Functions](./questions/functions/)
+### [Functions](./questions/functions/functions.md)
 
 |      | Topics                                          |
 | :--- | :---------------------------------------------- |
@@ -130,7 +130,7 @@
 |      | [currying/curry]()                              |
 |      | [Memoization]()                                 |
 
-### [Advanced functions](./questions/functions/)
+### [Advanced functions](./questions/functions/functions.md)
 
 |      | Topics                            |
 | :--- | :-------------------------------- |
@@ -145,7 +145,7 @@
 |      | function returing multiple values |
 |      | [arrow functions]()               |
 
-### [Inheritance](./questions/)
+### [Inheritance](./questions/inheritance/inheritance.md)
 
 |      | Topics                |
 | :--- | :-------------------- |
@@ -156,7 +156,7 @@
 |      | [functional-shared]() |
 |      | []()                  |
 
-### [strings](./questions/strings/)
+### [strings](./questions/strings/strings.md)
 
 |      | Topics                     |
 | :--- | :------------------------- |
@@ -172,7 +172,7 @@
 |      | String instance methods    |
 |      | String conversion          |
 
-### [arrays](./questions/arrays/)
+### [arrays](./questions/arrays/arrays.md)
 
 |      | Topics                 |
 | :--- | :--------------------- |
@@ -184,7 +184,7 @@
 |      | [array methods]()      |
 |      | []()                   |
 
-### [promise](./questions/functions/promise/)
+### [promise](./questions/functions/promise/promise.md)
 
 |      | Topics                      |
 | :--- | :-------------------------- |
@@ -196,7 +196,7 @@
 |      | promise.prototype.finally() |
 |      | promise error handling      |
 
-### [async and await](./questions/functions/async_await/)
+### [async and await](./questions/functions/async_await/async_await.md)
 
 |      | Topics                                           |
 | :--- | :----------------------------------------------- |
@@ -208,7 +208,7 @@
 |      | async function with await concurrency            |
 |      | Rewriting a Promise chain with an async function |
 
-### [generators](./questions/functions/generators/)
+### [generators](./questions/functions/generators/generator.md)
 
 |      | Topics                 |
 | :--- | :--------------------- |
@@ -224,7 +224,7 @@
 |      | for..of          |
 |      | async generators |
 
-### [classes](./questions/class/)
+### [classes](./questions/class/class.md)
 
 |      | Topics                          |
 | :--- | :------------------------------ |
@@ -252,7 +252,7 @@
 |      | use strict                      |
 |      | class as special function       |
 
-### [Error Handling](./questions/errorHandling/)
+### [Error Handling](./questions/errorHandling/errorHandling.md)
 
 |      | Topics                 |
 | :--- | :--------------------- |
@@ -261,7 +261,7 @@
 |      | throw                  |
 |      | optional catch binding |
 
-### [promises](./questions/functions/promise/)
+### [promises](./questions/functions/promise/promise.md)
 
 |      | Topics                                        |
 | :--- | :-------------------------------------------- |
@@ -283,7 +283,7 @@
 |      | Task queues vs microtasks                     |
 |      | When promises and tasks collide               |
 
-### [Modules](./questions/modules/)
+### [Modules](./questions/modules/module.md)
 
 |      | Topics                                                 |
 | :--- | :----------------------------------------------------- |
@@ -314,7 +314,7 @@
 |      | Other differences between modules and standard scripts |
 |      | Troubleschooting                                       |
 
-### [Symbol](./questions/symbols)
+### [Symbol](./questions/symbols/symbols.md)
 
 |      | Topics                     |
 | :--- | :------------------------- |
@@ -325,7 +325,7 @@
 |      | Symbol instance methods    |
 |      | Symbol type conversion     |
 
-### [Collections](./questions/collections)
+### [Collections](./questions/collections/collections.md)
 
 |      | Topics |
 | :--- | :----- |
