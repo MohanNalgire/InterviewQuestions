@@ -2,63 +2,63 @@
 
 ## Question Index
 
-| Sr. No.: | Quesitons                                                                                                         |
-| :------: | :---------------------------------------------------------------------------------------------------------------- |
-| conceopt | object                                                                                                            |
-|    01    | What is object in JavaScript                                                                                      |
-|    02    | What is premitive and non-premetive data types                                                                    |
-|    03    | what is the type of function                                                                                      |
-|    04    | What is the type of array                                                                                         |
-|    05    | How to create object                                                                                              |
-|    06    | Is it mandetory in object to define properties at start                                                           |
-|    07    | how to create a object by using object constructor method                                                         |
-|    08    | what is object litral in JavaScript                                                                               |
-|    09    | how to create a object by using object literal method                                                             |
-|    10    | Write all types of ways of creating object in JavaScript                                                          |
-|    11    | What are the all kind of JavaScript objects                                                                       |
-| concept  | Object property                                                                                                   |
-|    12    | what is property in object                                                                                        |
-|    13    | what is key/name/identifier in object                                                                             |
-|    14    | what are the object property name limitations in JavaScript                                                       |
-|    15    | what is value in object                                                                                           |
-|    16    | How to add properties to object?                                                                                  |
-|    17    | How to iterate over object properties for keys of object                                                          |
-|    18    | What is the use of for...in loop in object                                                                        |
-|    19    | What are the all ways of adding properties to object                                                              |
-|    20    | how to add multi word properties to object                                                                        |
-|          | how to access multi word properties of object                                                                     |
-|          | what is computed properties concept                                                                               |
-|          | how to assign dynamic keys in object                                                                              |
-|          | how to add some string at end of each property key in object                                                      |
-|          | What are the rules of accessing property of object                                                                |
-|          | what is 'trailing comma' / 'hanging comma' in Object                                                              |
-|          | how to access object properties values                                                                            |
-|          | how to test property exist on object in JavaScript                                                                |
-|    0     | What are the all ways of accessing properties of object                                                           |
-|          | how to delete object properties                                                                                   |
-|          | [what are the kinds of object properties](#what-are-the-all-kind-of-javascript-objects)                           |
-| concept  | Object properties value, writable, enumerable, configurable                                                       |
-|          |                                                                                                                   |
-| concept  | Object method                                                                                                     |
-|    0     | how to define methods in object?                                                                                  |
-|          | how to use method with object?                                                                                    |
-|          | [When we said a function as object method in JavaScript](#when-we-said-a-function-as-object-method-in-javascript) |
-| concept  | Object sort for properties & object                                                                               |
-|          | How to convert integer value to non-integer in JavaScript Object                                                  |
-|          | How to Sort JavaScript Object by Key                                                                              |
-|          | How to Sort JavaScript Object by values                                                                           |
+| Sr. No.: | Quesitons                                                                                                                          |
+| :------: | :--------------------------------------------------------------------------------------------------------------------------------- |
+| conceopt | object                                                                                                                             |
+|    01    | [What is object in JavaScript](#What-is-object-in-JavaScript)                                                                      |
+|    02    | [What is premitive and non-premetive data types](#what-is-premitive-and-non-premetive-data-types)                                  |
+|    03    | [what is the type of function](#what-is-the-type-of-function)                                                                      |
+|    04    | [What is the type of array   ](#what-is-the-type-of-array)                                                                         |
+|    05    | [How to create object        ](#how-to-create-object)                                                                              |
+|    06    | [Is it mandetory in object to define properties at start ](#is-it-mandetory-in-object-to-define-properties-at-start)               |
+|    07    | [how to create a object by using object constructor method         ](#how-to-create-a-object-by-using-object-constructor-method)   |
+|    08    | [what is object litral in JavaScript     ](#what-is-object-in-javascript)                                                          |
+|    09    | [how to create a object by using object literal method ](#how-to-create-a-object-by-using-object-literal-method)                   |
+|    10    | [Write all types of ways of creating object in JavaScript](#write-all-types-of-ways-of-creating-object-in-javascript)              |
+|    11    | [What are the all kind of JavaScript objects ](#what-are-the-all-kind-of-javascript-objects)                                       |
+| concept  | [Object property ](#)                                                                                                              |
+|    12    | [what is property in object  ](#what-is-property-in-object)                                                                        |
+|    13    | [what is key/name/identifier in object   ](#what-is-keynameidentifier-in-object)                                                   |
+|    14    | [what are the object property name limitations in JavaScript       ](#what-are-the-object-property-name-limitations-in-javascript) |
+|    15    | [what is value in object     ](#what-is-value-in-object)                                                                           |
+|    16    | [How to add properties to object?        ](#)                                                                                      |
+|    17    | [How to iterate over object properties for keys of object](#)                                                                      |
+|    18    | [What is the use of for...in loop in object](#)                                                                                    |
+|    19    | [What are the all ways of adding properties to object  ](#)                                                                        |
+|    20    | [how to add multi word properties to object](#)                                                                                    |
+|          | [how to access multi word properties of object         ](#)                                                                        |
+|          | [what is computed properties concept     ](#)                                                                                      |
+|          | [how to assign dynamic keys in object    ](#)                                                                                      |
+|          | [how to add some string at end of each property key in object      ](#)                                                            |
+|          | [What are the rules of accessing property of object    ](#)                                                                        |
+|          | [what is 'trailing comma' / 'hanging comma' in Object  ](#)                                                                        |
+|          | [how to access object properties values  ](#)                                                                                      |
+|          | [how to test property exist on object in JavaScript    ](#)                                                                        |
+|    0     | [What are the all ways of accessing properties of object ](#)                                                                      |
+|          | [how to delete object properties         ](#)                                                                                      |
+|          | [what are the kinds of object properties](#what-are-the-all-kind-of-javascript-objects)                                            |
+| concept  | Object properties value, writable, enumerable, configurable                                                                        |
+|          |                                                                                                                                    |
+| concept  | [Object method   ](#)                                                                                                              |
+|    0     | [how to define methods in object?        ](#)                                                                                      |
+|          | [how to use method with object?](#)                                                                                                |
+|          | [When we said a function as object method in JavaScript](#when-we-said-a-function-as-object-method-in-javascript)                  |
+| concept  | [Object sort for properties & object     ](#)                                                                                      |
+|          | [How to convert integer value to non-integer in JavaScript Object  ](#)                                                            |
+|          | [How to Sort JavaScript Object by Key    ](#)                                                                                      |
+|          | [How to Sort JavaScript Object by values ](#)                                                                                      |
 
 ### question and answers
 
-#### What is object in JavaScript
+#### 1. What is object in JavaScript
 
-#### What is premitive and non-premetive data types
+#### 2. What is premitive and non-premetive data types
 
-#### what is the type of function
+#### 3. what is the type of function
 
-#### What is the type of array
+#### 4. What is the type of array
 
-#### How to create object
+#### 5. How to create object
 
 #### Is it mandetory in object to define properties at start
 
