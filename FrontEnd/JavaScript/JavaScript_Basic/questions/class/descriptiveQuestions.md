@@ -2,44 +2,49 @@
 
 ## Question Index
 
-| Sr.No. | Questions |
-| :---: | :--- |
-| | [What is class](#what-is-class)|
-| | [How to declare class properties in JavaScript](#how-to-declare-class-properties-in-javascript)|
-| | [what is class constructor](#what-is-class-constructor)|
-| | [How to write protected class](#how-to-write-protected-class)|
-| | [If JavaScript support funciton overloading](#if-javascript-support-funciton-overloading)|
-| | [If JavaScript support method overloading](#if-javascript-support-funciton-overloading)|
-| | [If JavaScript support multiple constructors or not](#if-javascript-support-multiple-constructors-or-not)|
-| | [can-you-make-multiple-constructors-in-es6-and-up](#can-you-make-multiple-constructors-in-es6-and-up)|
-| concept | ES 5 class |
-|| How to create a class with ES 5 in JavaScript |
-|| How to write a ES 5 class constructor metod in JavaScript |
-|| How to extend a class in ES 5 with JavaScript |
-|| |
-|concept | this keyword |
-||What is this?|
-||What is the representation of this in JavaScript? |
-| concept | ES 6 class |
-||How ES6 class declarations are hoisted |
-||Why ES6 class expressions are not hoisted |
-||why Es6 classes are first class citizens |
-||why ES6 classes are executed in strict mode |
-||In how many ways we can define classes |
+| Sr.No.  | Questions                                                                                                 |
+| :-----: | :-------------------------------------------------------------------------------------------------------- |
+|         | [What is class](#what-is-class)                                                                           |
+|         | [How to declare class properties in JavaScript](#how-to-declare-class-properties-in-javascript)           |
+|         | [what is class constructor](#what-is-class-constructor)                                                   |
+|         | [How to write protected class](#how-to-write-protected-class)                                             |
+|         | [If JavaScript support funciton overloading](#if-javascript-support-funciton-overloading)                 |
+|         | [If JavaScript support method overloading](#if-javascript-support-funciton-overloading)                   |
+|         | [If JavaScript support multiple constructors or not](#if-javascript-support-multiple-constructors-or-not) |
+|         | [can-you-make-multiple-constructors-in-es6-and-up](#can-you-make-multiple-constructors-in-es6-and-up)     |
+| concept | ES 5 class                                                                                                |
+|         | How to create a class with ES 5 in JavaScript                                                             |
+|         | How to write a ES 5 class constructor metod in JavaScript                                                 |
+|         | How to extend a class in ES 5 with JavaScript                                                             |
+|         |                                                                                                           |
+| concept | this keyword                                                                                              |
+|         | What is this?                                                                                             |
+|         | What is the representation of this in JavaScript?                                                         |
+| concept | ES 6 class                                                                                                |
+|         | How ES6 class declarations are hoisted                                                                    |
+|         | Why ES6 class expressions are not hoisted                                                                 |
+|         | why Es6 classes are first class citizens                                                                  |
+|         | why ES6 classes are executed in strict mode                                                               |
+|         | In how many ways we can define classes                                                                    |
 
 
 ### What is the representation of this in JavaScript?
 >
-| this used in | refers to |
-| :--- | :--- |
-| object method | object |
-| alone in script | global object |
-| in function | global object |
-| in strict mode | this is undefined |
-| in an event | element that received event |
-| methods like call(), apply() and bind() | to related object |
+| this used in                            | refers to                   |
+| :-------------------------------------- | :-------------------------- |
+| object method                           | object                      |
+| alone in script                         | global object               |
+| in function                             | global object               |
+| in strict mode                          | this is undefined           |
+| in an event                             | element that received event |
+| methods like call(), apply() and bind() | to related object           |
 
 ### What is class
+
+### How to declare class
+
+### What is statck initialization block in JavaScript class
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Static_initialization_blocks
 
 ### How to declare class properties in JavaScript
 
