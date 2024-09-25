@@ -1,7 +1,7 @@
 class Dog:
     def __init__(self, name, breed):
-        self.name = name;
-        self.breed = breed;
+        self.name = name
+        self.breed = breed
 
 class Robot_Dog: 
     def __init__(self, name_val, breed_val):
@@ -9,7 +9,7 @@ class Robot_Dog:
         self.breed = breed_val
 
     def bark(self):
-        print("woof woof!");
+        print("woof woof!")
 
 # Main program
 my_dog= Robot_Dog('Spot', 'local dog')
