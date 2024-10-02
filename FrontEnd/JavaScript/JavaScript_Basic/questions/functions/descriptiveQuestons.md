@@ -175,6 +175,9 @@ Reference : <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/F
 
 
 32. #### What is currying
+This technique converts N arguments function calls into N function call chains, with each function call having a single argument. Currying returns a function with an argument until all the arguments are applied.
+Then, you have to continue to call the returned function until the arguments have been exhausted and it returns the final value.
+
 32. #### How to implement currying in JavaScript
 33. #### What is partial application
 
